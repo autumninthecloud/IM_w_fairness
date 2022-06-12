@@ -9,10 +9,12 @@
  - [X] **A.2 Collection bias**: Have we considered sources of bias that could be introduced during data collection and survey design and taken steps to mitigate those?
   
     *Sina Weibo's sampling methods for the API and China's censorship practices may have removed data in ways that we cannot measure. It is possible that certain types of posts -- for example, those related to political uprisings -- may be missing at higher rates. The extent of this bias is unknown to us. Certain types of users -- such as those from rural areas or older individuals who are less likely to use social media -- may appear less in our dataset. We are concerned with the behavior of active Sina Weibo users and bias related to who is likely to use social media is outside of the scope of this project. Although we are concerned with fairness, we can only address fairness along measurable dimensions in our dataset and only in terms of the distributions of these among active users. Gender is captured in a limited way in our dataset (as only male or female). Users who identify in other ways are misrepresented in the data.*
- - [ ] **A.3 Limit PII exposure**: Have we considered ways to minimize exposure of personally identifiable information (PII) for example through anonymization or not collecting information that isn't relevant for analysis?
+ - [X] **A.3 Limit PII exposure**: Have we considered ways to minimize exposure of personally identifiable information (PII) for example through anonymization or not collecting information that isn't relevant for analysis?
     
     *We have analyzed minimal amount of data about users: only their gender; when they post; and who they re-post from are included in our main dataset. We have masked usernames with numeric IDs. Despite this effort to de-identify the data, users could be identified by looking at Sina Weibo posts that match a given timestamp and volume of reshares. Given that this information is public, we are not revealing any additional PII that is not already available. However, we are increasing the accessibility of the information, which could increase the risk that users might be identified. In this context -- where we are identifying users with a great deal of influence -- this may cause harm to users who could be identified as potentially dangerous and candidates for censorship if their posts are political in nature.*
- - [ ] **A.4 Downstream bias mitigation**: Have we considered ways to enable testing downstream results for biased outcomes (e.g., collecting data on protected group status like race or gender)?
+ - [X] **A.4 Downstream bias mitigation**: Have we considered ways to enable testing downstream results for biased outcomes (e.g., collecting data on protected group status like race or gender)?
+
+    *Our analysis is focused on testing downstream results for biased outcomes.*
 
 ## B. Data Storage
  - [ ] **B.1 Data security**: Do we have a plan to protect and secure data (e.g., encryption at rest and in transit, access controls on internal users and third parties, access logs, and up-to-date software)?
@@ -21,7 +23,11 @@
 
 ## C. Analysis
  - [x] **C.1 Missing perspectives**: Have we sought to address blindspots in the analysis through engagement with relevant stakeholders (e.g., checking assumptions and discussing implications with affected communities and subject matter experts)?
+
+    *We have discussed our research with subject matter experts at the University of California, Berkeley I School. We do not have connections to Sina Weibo users and were not able to speak with affected communities, which is a major blindspot in our research. We do not -- for example -- understand their perspective on our definition of fairness and any harms associated with the way we conducted our research.*
  - [ ] **C.2 Dataset bias**: Have we examined the data for possible sources of bias and taken steps to mitigate or address these biases (e.g., stereotype perpetuation, confirmation bias, imbalanced classes, or omitted confounding variables)?
+
+    * *
  - [ ] **C.3 Honest representation**: Are our visualizations, summary statistics, and reports designed to honestly represent the underlying data?
  - [ ] **C.4 Privacy in analysis**: Have we ensured that data with PII are not used or displayed unless necessary for the analysis?
  - [ ] **C.5 Auditability**: Is the process of generating the analysis well documented and reproducible if we discover issues in the future?
