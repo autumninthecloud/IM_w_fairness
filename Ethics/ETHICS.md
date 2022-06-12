@@ -12,6 +12,9 @@
  - [X] **A.3 Limit PII exposure**: Have we considered ways to minimize exposure of personally identifiable information (PII) for example through anonymization or not collecting information that isn't relevant for analysis?
     
     *We have analyzed minimal amount of data about users: only their gender; when they post; and who they re-post from are included in our main dataset. We have masked usernames with numeric IDs. Despite this effort to de-identify the data, users could be identified by looking at Sina Weibo posts that match a given timestamp and volume of reshares. Given that this information is public, we are not revealing any additional PII that is not already available. However, we are increasing the accessibility of the information, which could increase the risk that users might be identified. In this context -- where we are identifying users with a great deal of influence -- this may cause harm to users who could be identified as potentially dangerous and candidates for censorship if their posts are political in nature.*
+    
+    **LINK BACK TO WEBSITE THAT DOCUMENTS DATA **
+    
  - [X] **A.4 Downstream bias mitigation**: Have we considered ways to enable testing downstream results for biased outcomes (e.g., collecting data on protected group status like race or gender)?
 
     *Our analysis is focused on testing downstream results for biased outcomes.*
@@ -20,6 +23,8 @@
  - [ ] **B.1 Data security**: Do we have a plan to protect and secure data (e.g., encryption at rest and in transit, access controls on internal users and third parties, access logs, and up-to-date software)?
  - [ ] **B.2 Right to be forgotten**: Do we have a mechanism through which an individual can request their personal information be removed?
  - [ ] **B.3 Data retention plan**: Is there a schedule or plan to delete the data after it is no longer needed?
+
+**BOOKMARK WAYS TO LIMIT ACCESS TO DATA -- PPL REQUESTING ACCESS; CAN ALSO HAVE WAY FOR PPL TO REQUEST DELETION (ALTHOUGH MIGHT NOT BE ABLE TO ACCESS FROM CHINA)**
 
 ## C. Analysis
  - [x] **C.1 Missing perspectives**: Have we sought to address blindspots in the analysis through engagement with relevant stakeholders (e.g., checking assumptions and discussing implications with affected communities and subject matter experts)?
@@ -37,6 +42,8 @@
  - [ ] **D.2 Fairness across groups**: Have we tested model results for fairness with respect to different affected groups (e.g., tested for disparate error rates)?
  - [ ] **D.3 Metric selection**: Have we considered the effects of optimizing for our defined metrics and considered additional metrics?
  - [ ] **D.4 Explainability**: Can we explain in understandable terms a decision the model made in cases where a justification is needed?
+**NEED TO READ PAPER FROM CLASS **
+
  - [ ] **D.5 Communicate bias**: Have we communicated the shortcomings, limitations, and biases of the model to relevant stakeholders in ways that can be generally understood?
 
 ## E. Deployment
@@ -44,6 +51,7 @@
  - [ ] **E.2 Roll back**: Is there a way to turn off or roll back the model in production if necessary?
  - [ ] **E.3 Concept drift**: Do we test and monitor for concept drift to ensure the model remains fair over time?
  - [ ] **E.4 Unintended use**: Have we taken steps to identify and prevent unintended uses and abuse of the model and do we have a plan to monitor these once the model is deployed?
+**CONSEQUENCES SCANNING**
 
 *Data Science Ethics Checklist generated with [deon](http://deon.drivendata.org).*
 
