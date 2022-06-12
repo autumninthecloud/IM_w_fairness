@@ -38,8 +38,13 @@
 *Data Science Ethics Checklist generated with [deon](http://deon.drivendata.org).*
 
 ## References
+
 Hu, S. (2020, March 26). *Weibo – How is China’s second largest social media platform being used for social research?*. The London School of Economics and Political Science Blog. Retrieved from: https://blogs.lse.ac.uk/impactofsocialsciences/2020/03/26/weibo-how-is-chinas-second-largest-social-media-platform-being-used-for-social-research/ 
+
 Mengzhen, W. (2019, May 19). *China's national library to archive 200 billion Sina Weibo posts*. CGTN. Retrieved from: https://news.cgtn.com/news/3d3d674d79677a4e34457a6333566d54/index.html 
+
 Nissenbaum, H. (2011). A Contextual Approach to Privacy Online. *Daedalus, 140* (4): 32–48. doi: https://doi.org/10.1162/DAED_a_00113
+
 Pernot-Leplay, E. (2020). China’s Approach on Data Privacy Law: A Third Way Between the U.S. and the EU?. *Penn State Journal of Law & International Affairs, Vol. 8*, No. 1. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3542820
+
 Zeng, J., Burgess, J., & Bruns, A. (2015) The challenges of Weibo for data-driven digital media research. In IR16: Phoenix 2015, 2015-10-21 - 2015-10-24. Retrieved from: https://eprints.qut.edu.au/90266/ 
