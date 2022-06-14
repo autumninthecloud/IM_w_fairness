@@ -37,13 +37,17 @@
  - [ ] **C.4 Privacy in analysis**: Have we ensured that data with PII are not used or displayed unless necessary for the analysis?
  - [ ] **C.5 Auditability**: Is the process of generating the analysis well documented and reproducible if we discover issues in the future?
 
+   _We are making our source data and code base available via a Github repository. Our first task in this project was to improve the readability and doucmentation of the code we are building from (available **HERE**; a prior version of the code is available (here)[https://github.com/geopanag/IMINFECTOR])._
+   
+   **LINK TO OTHER CODE BASES IF POSSIBLE-- **
+
 ## D. Modeling
  - [ ] **D.1 Proxy discrimination**: Have we ensured that the model does not rely on variables or proxies for variables that are unfairly discriminatory?
  - [ ] **D.2 Fairness across groups**: Have we tested model results for fairness with respect to different affected groups (e.g., tested for disparate error rates)?
  - [ ] **D.3 Metric selection**: Have we considered the effects of optimizing for our defined metrics and considered additional metrics?
  - [ ] **D.4 Explainability**: Can we explain in understandable terms a decision the model made in cases where a justification is needed?
 
-*Although not as interpretable as models based on logistic regression or random forest, graph neural networks (GNNs) are considered by some to be more interpretable compared to traditional deep models like convolutional neural networks (Liu et al., 2022) due to their reliance on a graph data format. However, post-hoc explanation methods are still typically needed for understanding their output. Different explanations may be needed for differnet types of GNNs, such as the type built to solve the Influence Maximization (IM) problem with fairness, here. Explaining IM algorithms is a field of research in and of itself and outside of the scope of our project. In future iterations on this IM algorithm, we could consider methods like interpretable decision trees, which have been shown to be effective methods for IM algorithms more generally (Yadav et al., 2017).*
+*Although not as interpretable as models based on logistic regression or random forest, graph neural networks (GNNs) are considered by some to be more interpretable compared to traditional deep models like convolutional neural networks (Liu et al., 2022) due to their reliance on a graph data format. However, post-hoc explanation methods are still typically needed for understanding their output. Different explanations may be needed for different types of GNNs, such as the type built to solve the Influence Maximization (IM) problem with fairness, here. Explaining IM algorithms is a field of research in and of itself and outside of the scope of our project. In future iterations on this IM algorithm, we could consider methods like interpretable decision trees, which have been shown to be effective methods for IM algorithms more generally (Yadav et al., 2017).*
 
  - [ ] **D.5 Communicate bias**: Have we communicated the shortcomings, limitations, and biases of the model to relevant stakeholders in ways that can be generally understood?
 
