@@ -24,7 +24,7 @@ PDFs of the literature we cite in our References section can be found [here](htt
 ## B. Data Storage
  - [X] **B.1 Data security**: Do we have a plan to protect and secure data (e.g., encryption at rest and in transit, access controls on internal users and third parties, access logs, and up-to-date software)?
 
- _The data are publicly available, so we do not have a plan to protect and secure data._
+     _The data are publicly available, so we do not have a plan to protect and secure data._
  - [X] **B.2 Right to be forgotten**: Do we have a mechanism through which an individual can request their personal information be removed?
 
     *Anyone who finds themselves in the dataset can request that we remove their data by emailing us at team-influencers@googlegroups.com. We can only delete the data for the dataset we manage, specifically **X and X, found here***
@@ -58,10 +58,10 @@ PDFs of the literature we cite in our References section can be found [here](htt
   _We are explicitly using a variable to measure gender in our modeling. As mentioned above, other sources of discrimination (like individuals who are less likely to use social media not appearing in the dataset) may exist but are not measurable in our dataset. The broader issue of bias in social media networks is something we have discussed but are not able to mitigate over the course of this project (see Unintended use section below)._
  - [X] **D.2 Fairness across groups**: Have we tested model results for fairness with respect to different affected groups (e.g., tested for disparate error rates)?
  
-  *Our analysis is focused on improving fairness in IM algorithms. We optimize for fairness with respect to gender (categorized as males and females). Further iterations on this project could optimize for fairness with respect to other categories (like whether people reside in urban or rural parts of China). An important future step would be to optimize for fairness with respect to intersectional identities (Hoffman, ).*
+    *Our analysis is focused on improving fairness in IM algorithms. We optimize for fairness with respect to gender (categorized as males and females). Further iterations on this project could optimize for fairness with respect to other categories (like whether people reside in urban or rural parts of China). An important future step would be to optimize for fairness with respect to intersectional identities (Hoffman, ).*
  - [ ] **D.3 Metric selection**: Have we considered the effects of optimizing for our defined metrics and considered additional metrics?
 
- _This project is focused on improving current metrics for selecting influencers in a network based on influence alone. Here, we are incorporating an additional measure of fairness. We have not considered additional metrics for this project._
+     _This project is focused on improving current metrics for selecting influencers in a network based on influence alone. Here, we are incorporating an additional measure of fairness. We have not considered additional metrics for this project._
  - [ ] **D.4 Explainability**: Can we explain in understandable terms a decision the model made in cases where a justification is needed?
 
 *Although not as interpretable as models based on logistic regression or random forest, graph neural networks (GNNs) are considered by some to be more interpretable compared to traditional deep models like convolutional neural networks (Liu et al., 2022) due to their reliance on a graph data format. However, post-hoc explanation methods are still typically needed for understanding their output. Different explanations may be needed for different types of GNNs, such as the type built to solve the Influence Maximization (IM) problem with fairness, here. Explaining IM algorithms is a field of research in and of itself and outside of the scope of our project. In future iterations on this IM algorithm, we could consider methods like interpretable decision trees, which have been shown to be effective methods for IM algorithms more generally (Yadav et al., 2017).*
@@ -71,13 +71,13 @@ PDFs of the literature we cite in our References section can be found [here](htt
 ## E. Deployment
  - [X] **E.1 Redress**: Have we discussed with our organization a plan for response if users are harmed by the results (e.g., how does the data science team evaluate these cases and update analysis and models to prevent future harm)?
 
-  *Since we are not deploying the model, this item does not apply.*
+    *Since we are not deploying the model, this item does not apply.*
  - [X] **E.2 Roll back**: Is there a way to turn off or roll back the model in production if necessary?
  
-  *Since we are not deploying the model, this item does not apply.*
+    *Since we are not deploying the model, this item does not apply.*
  - [X] **E.3 Concept drift**: Do we test and monitor for concept drift to ensure the model remains fair over time?
 
-  *Since we are not deploying the model, this item does not apply.*
+    *Since we are not deploying the model, this item does not apply.*
  - [x] **E.4 Unintended use**: Have we taken steps to identify and prevent unintended uses and abuse of the model and do we have a plan to monitor these once the model is deployed?
 
   *Since we are not deploying the model, this item does not apply. However, we are sensitive to the unintended consequences of this project more generally, which we have discussed via a [Consequences Scanning exercise](https://doteveryone.org.uk/project/consequence-scanning/). The outcome of our application of this exercise to this project can be found **HERE -- INSERT LINK TO BOARD**
