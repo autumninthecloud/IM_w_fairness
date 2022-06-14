@@ -20,10 +20,15 @@ We are Team Influencers, a group of students in the University of California, Be
 **Team Members (in alphabetical order)** 
 
 [David Peletz](https://www.linkedin.com/in/david-peletz/)
+
 [Autumn Rains](https://www.linkedin.com/in/autumninthecloud/)
+
 [Sophia Skowronski](https://www.linkedin.com/in/sophiaskowronski/)
+
 [Alissa Stover](https://www.linkedin.com/in/alissa-stover/
 
 **Advisors (in alphabetical order)**
+
 Alberto Todeschini
+
 Puya Vahabi
