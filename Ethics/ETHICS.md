@@ -4,6 +4,8 @@
 
 In an effort to improve understanding of the ethical considerations of this project, we are going beyond the typical use of this data science checklist and are including explanations under each item, rather than simply checking the box. We have not been able to complete every item for this project. However, future projects can build on our work here by completing these. We believe that this would be especially necessary if the model is being deployed.
 
+PDFs of the literature we cite in our References section can be found [here](https://github.com/autumninthecloud/IM_w_fairness/tree/main/Ethics/Literature).
+
 ## A. Data Collection
  - [X] **A.1 Informed consent**: If there are human subjects, have they given informed consent, where subjects affirmatively opt-in and have a clear understanding of the data uses to which they consent?
        
