@@ -25,7 +25,7 @@ We are Team Influencers, a group of students in the University of California, Be
 
 [Sophia Skowronski](https://www.linkedin.com/in/sophiaskowronski/)
 
-[Alissa Stover](https://www.linkedin.com/in/alissa-stover/
+[Alissa Stover](https://www.linkedin.com/in/alissa-stover/)
 
 **Advisors (in alphabetical order)**
 
