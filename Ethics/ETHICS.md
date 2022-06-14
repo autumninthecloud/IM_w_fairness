@@ -37,7 +37,7 @@
  - [ ] **C.4 Privacy in analysis**: Have we ensured that data with PII are not used or displayed unless necessary for the analysis?
  - [ ] **C.5 Auditability**: Is the process of generating the analysis well documented and reproducible if we discover issues in the future?
 
-   _We are making our source data and code base available via a Github repository. Our first task in this project was to improve the readability and doucmentation of the code we are building from (available **HERE**; a prior version of the code is available (here)[https://github.com/geopanag/IMINFECTOR])._
+   _We are making our source data and code base available via a Github repository. Our first task in this project was to improve the readability and doucmentation of the code we are building from (available **HERE**; a prior version of the code is available [here](https://github.com/geopanag/IMINFECTOR))._
    
    **LINK TO OTHER CODE BASES IF POSSIBLE-- **
 
