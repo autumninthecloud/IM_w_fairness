@@ -17,9 +17,13 @@ For anything else, please send us an email at team-influencers@googlegroups.com!
 
 We are Team Influencers, a group of students in the University of California, Berkeley's Masters of Information and Data Science program. We completed this project for our program capstone during the 2022 summer semester. You can find our project on the Berkeley website **HERE (need to add later)**. Other capstone projects are listed on this page: https://www.ischool.berkeley.edu/programs/mids/capstone. 
 
-**Team Members (in alphabetical order):** 
+**Team Members (in alphabetical order)** 
+
 [David Peletz](https://www.linkedin.com/in/david-peletz/)
 [Autumn Rains](https://www.linkedin.com/in/autumninthecloud/)
 [Sophia Skowronski](https://www.linkedin.com/in/sophiaskowronski/)
 [Alissa Stover](https://www.linkedin.com/in/alissa-stover/
 
+**Advisors (in alphabetical order)**
+Alberto Todeschini
+Puya Vahabi
