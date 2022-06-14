@@ -42,7 +42,8 @@
  - [ ] **D.2 Fairness across groups**: Have we tested model results for fairness with respect to different affected groups (e.g., tested for disparate error rates)?
  - [ ] **D.3 Metric selection**: Have we considered the effects of optimizing for our defined metrics and considered additional metrics?
  - [ ] **D.4 Explainability**: Can we explain in understandable terms a decision the model made in cases where a justification is needed?
-**NEED TO READ PAPER FROM CLASS **
+
+*Although not as interpretable as models based on logistic regression or random forest, graph neural networks (GNNs) are considered by some to be more interpretable compared to traditional deep models like convolutional neural networks (Liu et al., 2022) due to their reliance on a graph data format. However, post-hoc explanation methods are still typically needed for understanding their output. Different explanations may be needed for differnet types of GNNs, such as the type built to solve the Influence Maximization (IM) problem with fairness, here. Explaining IM algorithms is a field of research in and of itself and outside of the scope of our project. In future iterations on this IM algorithm, we could consider methods like interpretable decision trees, which have been shown to be effective methods for IM algorithms more generally (Yadav et al., 2017).*
 
  - [ ] **D.5 Communicate bias**: Have we communicated the shortcomings, limitations, and biases of the model to relevant stakeholders in ways that can be generally understood?
 
@@ -59,10 +60,14 @@
 
 Hu, S. (2020, March 26). *Weibo – How is China’s second largest social media platform being used for social research?*. The London School of Economics and Political Science Blog. Retrieved from: https://blogs.lse.ac.uk/impactofsocialsciences/2020/03/26/weibo-how-is-chinas-second-largest-social-media-platform-being-used-for-social-research/ 
 
+Liu, N., Feng, Q. and Hu, X. (2022). Chapter 7: Interpretability in Graph Neural Networks. In Wu, L., Cui, P., Pei, J., and Zhao, L. (Eds.), *Graph Neural Networks: Foundations, Fronteirs, and Applications*, pp. 121-147. Retrieved from: https://graph-neural-networks.github.io/static/file/chapter7.pdf 
+
 Mengzhen, W. (2019, May 19). *China's national library to archive 200 billion Sina Weibo posts*. CGTN. Retrieved from: https://news.cgtn.com/news/3d3d674d79677a4e34457a6333566d54/index.html 
 
 Nissenbaum, H. (2011). A Contextual Approach to Privacy Online. *Daedalus, 140* (4): 32–48. doi: https://doi.org/10.1162/DAED_a_00113
 
 Pernot-Leplay, E. (2020). China’s Approach on Data Privacy Law: A Third Way Between the U.S. and the EU?. *Penn State Journal of Law & International Affairs, Vol. 8*, No. 1. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3542820
+
+Yadav, A., Rahmattalabi, A., Kamar, E., Vayanos, P., Tambe, M. and Norohnha, V.L. (2017). Explanation Systems for Influence Maximization Algorithms. _Proceedings of the 3rd International Workshop on Social Influence Analysis (Socinf 2017) August 19th 2017 - Melbourne Australia_. http://ceur-ws.org/Vol-1893/Paper2.pdf
 
 Zeng, J., Burgess, J., & Bruns, A. (2015) The challenges of Weibo for data-driven digital media research. In IR16: Phoenix 2015, 2015-10-21 - 2015-10-24. Retrieved from: https://eprints.qut.edu.au/90266/ 
