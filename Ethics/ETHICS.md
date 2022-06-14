@@ -44,8 +44,12 @@ PDFs of the literature we cite in our References section can be found [here](htt
  - [X] **C.2 Dataset bias**: Have we examined the data for possible sources of bias and taken steps to mitigate or address these biases (e.g., stereotype perpetuation, confirmation bias, imbalanced classes, or omitted confounding variables)?
 
     *The balance of our demographic variable of interest (gender) is approximately 50/50 male/female, which seems like a reasonably unbiased distribution. However, it is biased in the sense that other genders are not measured.*
- - [ ] **C.3 Honest representation**: Are our visualizations, summary statistics, and reports designed to honestly represent the underlying data?
- - [ ] **C.4 Privacy in analysis**: Have we ensured that data with PII are not used or displayed unless necessary for the analysis?
+ - [X] **C.3 Honest representation**: Are our visualizations, summary statistics, and reports designed to honestly represent the underlying data?
+
+    _We have designed these honestly to the best of our ability. We also conducted user testing on our visualizations to understand how people might interpret our visuals. The process and outcome for these tests can be found **HERE -- LINK**. However, this does not mean that all of our research output is well represented. If you think that we can improve, email us at team-influencers@googlegroups.com._
+ - [X] **C.4 Privacy in analysis**: Have we ensured that data with PII are not used or displayed unless necessary for the analysis?
+
+    _We are not using variables that might be considered PII (see limit PII exposure section above)._
  - [X] **C.5 Auditability**: Is the process of generating the analysis well documented and reproducible if we discover issues in the future?
 
    _We are making our source data and code base available via a Github repository. Our first task in this project was to improve the readability and doucmentation of the code we are building from (available **HERE**; a prior version of the code is available [here](https://github.com/geopanag/IMINFECTOR))._
