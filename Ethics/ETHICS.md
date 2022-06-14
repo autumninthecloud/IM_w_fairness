@@ -61,11 +61,18 @@
  - [ ] **D.5 Communicate bias**: Have we communicated the shortcomings, limitations, and biases of the model to relevant stakeholders in ways that can be generally understood?
 
 ## E. Deployment
- - [ ] **E.1 Redress**: Have we discussed with our organization a plan for response if users are harmed by the results (e.g., how does the data science team evaluate these cases and update analysis and models to prevent future harm)?
- - [ ] **E.2 Roll back**: Is there a way to turn off or roll back the model in production if necessary?
- - [ ] **E.3 Concept drift**: Do we test and monitor for concept drift to ensure the model remains fair over time?
+ - [X] **E.1 Redress**: Have we discussed with our organization a plan for response if users are harmed by the results (e.g., how does the data science team evaluate these cases and update analysis and models to prevent future harm)?
+
+  *Since we are not deploying the model, this item does not apply.*
+ - [X] **E.2 Roll back**: Is there a way to turn off or roll back the model in production if necessary?
+ 
+  *Since we are not deploying the model, this item does not apply.*
+ - [X] **E.3 Concept drift**: Do we test and monitor for concept drift to ensure the model remains fair over time?
+
+  *Since we are not deploying the model, this item does not apply.*
  - [ ] **E.4 Unintended use**: Have we taken steps to identify and prevent unintended uses and abuse of the model and do we have a plan to monitor these once the model is deployed?
-**CONSEQUENCES SCANNING**
+
+  *Since we are not deploying the model, this item does not apply. However, we are sensitive to the unintended consequences of this project more generally, which we have discussed via a [Consequences Scanning exercise](https://doteveryone.org.uk/project/consequence-scanning/). The outcome of our application of this exercise to this project can be found **HERE -- INSERT LINK TO BOARD**
 
 *Data Science Ethics Checklist generated with [deon](http://deon.drivendata.org).*
 
