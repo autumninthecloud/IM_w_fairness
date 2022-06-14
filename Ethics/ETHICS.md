@@ -22,14 +22,16 @@ PDFs of the literature we cite in our References section can be found [here](htt
     *Our analysis is focused on testing downstream results for biased outcomes.*
 
 ## B. Data Storage
- - [ ] **B.1 Data security**: Do we have a plan to protect and secure data (e.g., encryption at rest and in transit, access controls on internal users and third parties, access logs, and up-to-date software)?
+ - [X] **B.1 Data security**: Do we have a plan to protect and secure data (e.g., encryption at rest and in transit, access controls on internal users and third parties, access logs, and up-to-date software)?
+
+ _The data are publicly available, so we do not have a plan to protect and secure data._
  - [X] **B.2 Right to be forgotten**: Do we have a mechanism through which an individual can request their personal information be removed?
 
     *Anyone who finds themselves in the dataset can request that we remove their data by emailing us at team-influencers@googlegroups.com. We can only delete the data for the dataset we manage, specifically **X and X, found here***
     
     **LINK TO DATASETS**
     
- - [ ] **B.3 Data retention plan**: Is there a schedule or plan to delete the data after it is no longer needed?
+ - [X] **B.3 Data retention plan**: Is there a schedule or plan to delete the data after it is no longer needed?
 
    *We are keeping a version of the data we used available indefinitely, for the purposes of replication (see below). Since these data are available via an API and have been used in other research (e.g., [here](https://www.aminer.org/influencelocality)), we assume that they will be available online outside of our activity. So, the possibility for use for replication purposes outweighs the costs of keeping them available to others (even if our activities may have increased the accessibility of these data). However, we are open to considering deleting our version the data. Please email us if you think these data should be deleted: team-influencers@googlegroups.com.*
 
