@@ -31,7 +31,7 @@ PDFs of the literature we cite in our References section can be found [here](htt
     
  - [ ] **B.3 Data retention plan**: Is there a schedule or plan to delete the data after it is no longer needed?
 
-   *We are keeping a version of the data we used available indefinitely, for the purposes of replication (see below). Since these data are available via an API and have been used in other research, we assume that they will be available online outside of our activity. So, the possibility for use for replication purposes outweighs the costs of keeping them available to others (even if our activities may have increased the accessibility of these data). However, we are open to considering deleting our version the data. Please email us if you think these data should be deleted: team-influencers@googlegroups.com.*
+   *We are keeping a version of the data we used available indefinitely, for the purposes of replication (see below). Since these data are available via an API and have been used in other research (e.g., [here](https://www.aminer.org/influencelocality)), we assume that they will be available online outside of our activity. So, the possibility for use for replication purposes outweighs the costs of keeping them available to others (even if our activities may have increased the accessibility of these data). However, we are open to considering deleting our version the data. Please email us if you think these data should be deleted: team-influencers@googlegroups.com.*
 
 **BOOKMARK WAYS TO LIMIT ACCESS TO DATA -- PPL REQUESTING ACCESS; CAN ALSO HAVE WAY FOR PPL TO REQUEST DELETION (ALTHOUGH MIGHT NOT BE ABLE TO ACCESS FROM CHINA)**
 
