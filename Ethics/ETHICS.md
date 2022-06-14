@@ -44,6 +44,8 @@
 ## D. Modeling
  - [ ] **D.1 Proxy discrimination**: Have we ensured that the model does not rely on variables or proxies for variables that are unfairly discriminatory?
  - [ ] **D.2 Fairness across groups**: Have we tested model results for fairness with respect to different affected groups (e.g., tested for disparate error rates)?
+ 
+  *Our analysis is focused on improving fairness in IM algorithms. We optimize for fairness with respect to gender (categorized as males and females). Further iterations on this project could optimize for fairness with respect to other categories (like whether people reside in urban or rural parts of China). An important future step would be to optimize for fairness with respect to intersectional identities (Hoffman, ).*
  - [ ] **D.3 Metric selection**: Have we considered the effects of optimizing for our defined metrics and considered additional metrics?
  - [ ] **D.4 Explainability**: Can we explain in understandable terms a decision the model made in cases where a justification is needed?
 
@@ -61,6 +63,10 @@
 *Data Science Ethics Checklist generated with [deon](http://deon.drivendata.org).*
 
 ## References
+
+Hoffmann, A.L. (2019). Where fairness fails: data, algorithms, and the
+limits of antidiscrimination discourse. _Information, Communication & Society, 22_:7, 900-915, DOI:
+10.1080/1369118X.2019.1573912
 
 Hu, S. (2020, March 26). *Weibo – How is China’s second largest social media platform being used for social research?*. The London School of Economics and Political Science Blog. https://blogs.lse.ac.uk/impactofsocialsciences/2020/03/26/weibo-how-is-chinas-second-largest-social-media-platform-being-used-for-social-research/ 
 
