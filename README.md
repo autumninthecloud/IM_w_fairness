@@ -9,7 +9,7 @@ If you have any input on code, please submit a pull request.
 For anything else, please send us an email at team-influencers@googlegroups.com! We are happy to communicate about anything about this project, including:
 
 * Any questions about how we worked together, our code, the dataset, etc.
-* Ethical considerations (also see our ethics checklist directly [here](https://github.com/autumninthecloud/IM_w_fairness/blob/main/Ethics/ETHICS.md) or in our Ethics folder. For example...
+* Ethical considerations (also see our ethics checklist directly [here](https://github.com/autumninthecloud/IM_w_fairness/blob/main/Ethics/ETHICS.md) or in our Ethics folder in the repo). For example...
   * If you find your data in our dataset, and would like us to delete it
   * If you think we should delete the data we have posted publicly 
 
