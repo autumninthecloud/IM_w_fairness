@@ -1,4 +1,4 @@
-# IM_w_fairness
+# Influence Maximization with Fairness
 ...building out the public repo
 
 
