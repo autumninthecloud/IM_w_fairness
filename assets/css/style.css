@@ -6,6 +6,7 @@ body {
 	background-color: #232931;
 	font-size: 13px;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	color: #EEEEEE
 }
 body, html {
 	height: 100%
