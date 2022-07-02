@@ -1,5 +1,9 @@
 # Influence Maximization with Fairness
 
+This README provides an overview of a project completed as part of UC Berkeley's Masters of Information and Data Science program (see "Who We Are" section below). You can find a more visual representation of our project on our Github Page: https://autumninthecloud.github.io/IM_w_fairness/ 
+
+Continue reading below to understand the project itself, what our repo contains (and learn about how to use the code), ethical considerations, and how to contact us.
+
 ## Project Overview
 
 In 2009, Sina Weibo – a Twitter-like platform in China – had over a million users who retweeted over 20 million messages. Most of these originated with a few “influential” users, whose original messages were retweeted many times. In the Sina Weibo network, each **node** represents a user and each **edge** represents a retweet. 
@@ -36,7 +40,11 @@ If the *cascade distribution* for a given attribute looks similar to that of the
 
 [SUMMARY OF WHAT WE LEARNED]
 
-## Code 
+## Repository 
+
+[OVERVIEW OF WHAT REPO CONTAINS]
+
+### How to use the code 
 
 [GUIDE TO USING CODE]
 
