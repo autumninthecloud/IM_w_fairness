@@ -1,6 +1,44 @@
 # Influence Maximization with Fairness
-...building out the public repo
 
+## Project Overview
+
+In 2009, Sina Weibo – a Twitter-like platform in China – had over a million users who retweeted over 20 million messages. Most of these originated with a few “influential” users, whose original messages were retweeted many times. In the Sina Weibo network, each **node** represents a user and each **edge** represents a retweet. 
+
+Some influencers start huge chains of retweeting, where their message is retweeted over an over. This is called a **cascade**. The largest cascade in this Sina Weibo network is over 50,000 retweets long. 
+
+What if we have a message we want to share widely on Sina Weibo? How might we find the right influencers, who will be able to start these large cascades and share that message with the most people? This problem could apply to any kind of message, like an ad about a product we want to sell, a call for donations for a cause, or important information many people should know, like information about the COVID-19 vaccine.
+
+**Influence maximization** algorithms solve this problem. More formally, an IM algorithm finds the set of *k* influencers that maximize information spread in the network. 
+
+Some influencers share information with many different people, who might represent a diversity of genders, classes, races, ethnicities, et cetera. Others might share information just as widely, but only with a certain group. 
+
+If the *cascade distribution* for a given attribute looks similar to that of the *broader network*, we might think of this as **"fair"** information spread. This concept of fairness is similar to what some might recognize as **"demographic parity"**.
+
+**Our project updates influence maximization to find the most fair and impactful influencers.**
+
+### Influence Maximization
+
+[INSERT MORE IN-DEPTH EXPLANATION OF IM]
+
+### Fairness 
+
+[INSERT MORE IN-DEPTH EXPLANATION OF FAIRNESS]
+
+### Solutions 
+
+[INSERT EXPLANATION OF FPS/FAC]
+
+### Experiments
+
+[INSERT DESCRIPTION OF REPLICATION PROCESS - INCLUDING MEASUREMENT METHOD]
+
+### Conclusion 
+
+[SUMMARY OF WHAT WE LEARNED]
+
+## Code 
+
+[GUIDE TO USING CODE]
 
 ## Contacting Us! 
 
