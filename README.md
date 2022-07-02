@@ -75,6 +75,6 @@ We are Team Influencers, a group of students in the University of California, Be
 
 **Advisors (in alphabetical order)**
 
-Alberto Todeschini
+[Alberto Todeschini](https://www.ischool.berkeley.edu/people/alberto-todeschini)
 
-Puya Vahabi
+[Puya Vahabi](https://www.ischool.berkeley.edu/people/puya-h-vahabi)
