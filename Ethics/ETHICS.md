@@ -127,6 +127,8 @@ Pernot-Leplay, E. (2020). China’s Approach on Data Privacy Law: A Third Way Be
 
 Satariano, A. (2022, April 22). _E.U. Takes Aim at Social Media’s Harms With Landmark New Law._ The New York Times. https://www.nytimes.com/2022/04/22/technology/european-union-social-media-law.html
 
+Selbst, A.D., boyd, d., Friedler, S., Venkatasubramanian, S., and Vertesi, J. (2019). Fairness and Abstraction in Sociotechnical Systems. FAT* 2019, 59-68. https://dl.acm.org/doi/10.1145/3287560.3287598
+
 Yadav, A., Rahmattalabi, A., Kamar, E., Vayanos, P., Tambe, M. and Norohnha, V.L. (2017). Explanation Systems for Influence Maximization Algorithms. _Proceedings of the 3rd International Workshop on Social Influence Analysis (Socinf 2017) August 19th 2017 - Melbourne Australia_. http://ceur-ws.org/Vol-1893/Paper2.pdf
 
 Zeng, J., Burgess, J., & Bruns, A. (2015) The challenges of Weibo for data-driven digital media research. In IR16: Phoenix 2015, 2015-10-21 - 2015-10-24. Retrieved from: https://eprints.qut.edu.au/90266/ 
