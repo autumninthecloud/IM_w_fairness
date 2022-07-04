@@ -101,7 +101,7 @@ PDFs of the literature we cite in our References section can be found [here](htt
     
     Another group of unintended consequences stem from poor explanation or documentation of our project. For example, 
     
-    An additional category of unintended consequences is concerned with unintended use of the algorithm if it were to be deployed. *
+    The algorithm could be used to spread information more fairly across groups in social media networks, such that messages reach a variety of users in proportion to their share on the population. On the flip side, the algorithm might be used in ways we did not intend. For example, could it be modified to identify individuals who would only share information with a specific group? Perhaps a nefarious actor - an individual who only wants members of a specific racial group to buy houses in a neighborhood - could bring redlining to a new level and share housing ads through influencers that trigger cascades only within that group. It could be used more directly by organizations to label their activities as "fair" *
 
 *Data Science Ethics Checklist generated with [deon](http://deon.drivendata.org).*
 
