@@ -10,12 +10,14 @@ PDFs of the literature we cite in our References section can be found [here](htt
  - [X] **A.1 Informed consent**: If there are human subjects, have they given informed consent, where subjects affirmatively opt-in and have a clear understanding of the data uses to which they consent?
        
     *Weibo users have consented to third-party statistical analysis of their data by agreeing to Sina Weibo's [Privacy Policy](https://weibo.com/signup/v5/privacy). Many have raised doubts that obtaining this type of consent via a Privacy Policy is truly "informed" and is deeply dependent on context (Nissenbaum, 2011). A recent article quoting Sina Weibo users' views on archiving their data for additional uses reveal some discomfort with the idea (Mengzhen, 2019). Use of Sina Weibo data is increasing, in part due to the establishment of an API in 2014 (Hu, 2020). For our analyses, we focus on data from 2009-2010, before the creation of the Sina Weibo API. The broader context of data privacy in China has changed vastly since that time and China has recently passed new laws that offer protections to users that are similar to GDPR (Pernot-Leplay, 2020). Users who posted on Sina Weibo at that time may have even less of an expectation and understanding of additional third-party data analysis than users today. However, we consider our analyses (centered on how users share information in the network and how to maximize their influence fairly) to be closely related to the administration of Sina Weibo's services themselves and likely aligned to user expectations around data use.*
+    
  - [X] **A.2 Collection bias**: Have we considered sources of bias that could be introduced during data collection and survey design and taken steps to mitigate those?
   
     *Sina Weibo's sampling methods for the API and China's censorship practices may have removed data in ways that we cannot measure. It is possible that certain types of posts -- for example, those related to political uprisings -- may be missing at higher rates. The extent of this bias is unknown to us. Certain types of users -- such as those from rural areas or older individuals who are less likely to use social media -- may appear less in our dataset. We are concerned with the behavior of active Sina Weibo users and bias related to who is likely to use social media is outside of the scope of this project. Although we are concerned with fairness, we can only address fairness along measurable dimensions in our dataset and only in terms of the distributions of these among active users. Gender is captured in a limited way in our dataset (as only male or female). Users who identify in other ways are misrepresented in the data.*
+    
  - [X] **A.3 Limit PII exposure**: Have we considered ways to minimize exposure of personally identifiable information (PII) for example through anonymization or not collecting information that isn't relevant for analysis?
     
-    *We have analyzed minimal amount of data about users: only their gender; when they post; and who they re-post from are included in our main dataset. The dataset we are using has been preprocessing so that the original Sina Weibo usernames are hashed user IDs. Despite this effort to de-identify the data, users could be identified by looking at Sina Weibo posts that match a given timestamp and volume of reshares. Given that this information is public, we are not revealing any additional PII that is not already available. However, we are increasing the accessibility of the information, which could increase the risk that users might be identified. In this context -- where we are identifying users with a great deal of influence -- this may cause harm to users who could be identified as potentially dangerous and candidates for censorship if their posts are political in nature. The original documentation for the data can be found [here](https://www.aminer.org/influencelocality).*
+    *We have analyzed minimal amount of data about users: only their gender; when they post; and who they re-post from are included in our main dataset. The dataset we are using has been preprocessing so that the original Sina Weibo usernames are hashed user IDs. We are releasing the preprocessed data and code so that future researchers can replicate the entire pipeline. Despite this effort to de-identify the data, users could be identified by looking at Sina Weibo posts that match a given timestamp and volume of reshares. Given that this information is public, we are not revealing any additional PII that is not already available. However, we are increasing the accessibility of the information, which could increase the risk that users might be identified. In this context - where we are identifying users with a great deal of influence - this may cause harm to users who could be identified as potentially dangerous and candidates for censorship if their posts are political in nature. The original documentation for the data can be found [here](https://www.aminer.org/influencelocality).*
     
  - [X] **A.4 Downstream bias mitigation**: Have we considered ways to enable testing downstream results for biased outcomes (e.g., collecting data on protected group status like race or gender)?
 
@@ -25,6 +27,7 @@ PDFs of the literature we cite in our References section can be found [here](htt
  - [X] **B.1 Data security**: Do we have a plan to protect and secure data (e.g., encryption at rest and in transit, access controls on internal users and third parties, access logs, and up-to-date software)?
 
      _The data are publicly available, so we do not have a plan to protect and secure data._
+     
  - [X] **B.2 Right to be forgotten**: Do we have a mechanism through which an individual can request their personal information be removed?
 
     *Anyone who finds themselves in the dataset can request that we remove their data by emailing us at team-influencers@googlegroups.com. We can only delete the data for the dataset we manage, specifically **X and X, found here***
@@ -35,21 +38,23 @@ PDFs of the literature we cite in our References section can be found [here](htt
 
    *We are keeping a version of the data we used available indefinitely, for the purposes of replication (see below). Since these data are available via an API and have been used in other research (e.g., [here](https://www.aminer.org/influencelocality)), we assume that they will be available online outside of our activity. So, the possibility for use for replication purposes outweighs the costs of keeping them available to others (even if our activities may have increased the accessibility of these data). However, we are open to considering deleting our version the data. Please email us if you think these data should be deleted: team-influencers@googlegroups.com.*
 
-**BOOKMARK WAYS TO LIMIT ACCESS TO DATA -- PPL REQUESTING ACCESS; CAN ALSO HAVE WAY FOR PPL TO REQUEST DELETION (ALTHOUGH MIGHT NOT BE ABLE TO ACCESS FROM CHINA)**
-
 ## C. Analysis
  - [x] **C.1 Missing perspectives**: Have we sought to address blindspots in the analysis through engagement with relevant stakeholders (e.g., checking assumptions and discussing implications with affected communities and subject matter experts)?
 
     *We have discussed our research with subject matter experts at the University of California, Berkeley I School. We do not have connections to Sina Weibo users and were not able to speak with affected communities, which is a major blindspot in our research. We do not -- for example -- understand their perspective on our definition of fairness and any harms associated with the way we conducted our research.*
+    
  - [X] **C.2 Dataset bias**: Have we examined the data for possible sources of bias and taken steps to mitigate or address these biases (e.g., stereotype perpetuation, confirmation bias, imbalanced classes, or omitted confounding variables)?
 
     *The balance of our demographic variable of interest (gender) is approximately 50/50 male/female, which seems like a reasonably unbiased distribution. However, it is biased in the sense that other genders are not measured.*
+    
  - [X] **C.3 Honest representation**: Are our visualizations, summary statistics, and reports designed to honestly represent the underlying data?
 
     _We have designed these honestly to the best of our ability. We also conducted user testing on our visualizations to understand how people might interpret our visuals. The process and outcome for these tests can be found **HERE -- LINK**. However, this does not mean that all of our research output is well represented. If you think that we can improve, email us at team-influencers@googlegroups.com._
+    
  - [X] **C.4 Privacy in analysis**: Have we ensured that data with PII are not used or displayed unless necessary for the analysis?
 
-    _We are not using variables that might be considered PII (see limit PII exposure section above)._
+    _We are not using variables that might be considered PII in our main analyses. However, we are re-releasing the raw data, which contain user IDs. We have decided to release this version of the data for the purpose of full replication, however are considering releasing a new version of the data at a later date with the raw user IDs masked (but in a way that maintains the underlying structure of the data). See limit PII exposure section above for further discussion of PII in this project._
+    
  - [X] **C.5 Auditability**: Is the process of generating the analysis well documented and reproducible if we discover issues in the future?
 
    _We are making our source data and code base available via a Github repository. Our first task in this project was to improve the readability and doucmentation of the code we are building from (available **HERE**; a prior version of the code is available [here](https://github.com/geopanag/IMINFECTOR))._
@@ -60,9 +65,11 @@ PDFs of the literature we cite in our References section can be found [here](htt
  - [X] **D.1 Proxy discrimination**: Have we ensured that the model does not rely on variables or proxies for variables that are unfairly discriminatory?
 
     _We are explicitly using a variable to measure gender in our modeling. As mentioned above, other sources of discrimination (like individuals who are less likely to use social media not appearing in the dataset) may exist but are not measurable in our dataset. The broader issue of bias in social media networks is something we have discussed but are not able to mitigate over the course of this project (see Unintended use section below)._
+    
  - [X] **D.2 Fairness across groups**: Have we tested model results for fairness with respect to different affected groups (e.g., tested for disparate error rates)?
  
-    *Our analysis is focused on improving fairness in IM algorithms. We optimize for fairness with respect to gender (categorized as males and females). Further iterations on this project could optimize for fairness with respect to other categories (like whether people reside in urban or rural parts of China). An important future step would be to optimize for fairness with respect to intersectional identities (Hoffman, 2019).*
+    *Our analysis is focused on improving fairness in IM algorithms. We optimize for fairness with respect to gender (categorized as males and females). Further iterations on this project could optimize for fairness with respect to other categories (like whether people reside in urban or rural parts of China). An important future step would be to optimize for fairness with respect to intersectional identities (Crenshaw, 1989; Hoffman, 2019).*
+    
  - [ ] **D.3 Metric selection**: Have we considered the effects of optimizing for our defined metrics and considered additional metrics?
 
      _This project is focused on improving current metrics for selecting influencers in a network based on influence alone. Here, we are incorporating an additional measure of fairness. We have not considered additional metrics for this project. Future work might want to consider other ways of measuring fairness, which is an active area of research (e.g., as explained in [this YouTube video](https://www.youtube.com/watch?v=g-z84_nRQhw))._
@@ -89,6 +96,8 @@ PDFs of the literature we cite in our References section can be found [here](htt
 *Data Science Ethics Checklist generated with [deon](http://deon.drivendata.org).*
 
 ## References
+
+Crenshaw, K. (1989). Demarginalizing the Intersection of Race and Sex: A Black Feminist Critique of Antidiscrimination Doctrine, Feminist Theory and Antiracist Politics. The University of Chicago Legal Forum 139 (1989), 139–168. https://chicagounbound.uchicago.edu/uclf/vol1989/iss1/8
 
 Hoffmann, A.L. (2019). Where fairness fails: data, algorithms, and the
 limits of antidiscrimination discourse. _Information, Communication & Society, 22_:7, 900-915, DOI:
