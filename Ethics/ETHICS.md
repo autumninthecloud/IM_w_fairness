@@ -97,7 +97,7 @@ PDFs of the literature we cite in our References section can be found [here](htt
 
     *Since we are not deploying the model, this item does not apply. However, we are sensitive to the unintended consequences of this project more generally, which we have discussed via a [Consequences Scanning exercise](https://doteveryone.org.uk/project/consequence-scanning/). 
     
-    One set of unintended consequences relates to increased access of the Sina Weibo dataset. Although we are working with a deidentified dataset that has be released on the internet elsewhere, we are hosting the data on a platform that is more accessible to users in the West (Google Drive, as opposed to being hosted on Baidu where we downloaded the data from originally). Although we reside in the U.S. and were able to access the Baidu data, our re-release means that other data users could have access with fewer - or simply different - barriers. This increases the risk that individuals in the dataset could be reidentified, especially if the data are combined with other information.  
+    One set of unintended consequences relates to increased access of the Sina Weibo dataset. Although we are working with a deidentified dataset that has be released on the internet elsewhere, we are hosting the data on a platform that is more accessible to users in the West (Google Drive, as opposed to being hosted on Baidu where we downloaded the data from originally). Although we reside in the U.S. and were able to access the Baidu data, our re-release means that other data users could have access with fewer - or simply different - barriers. This increases the risk that individuals in the dataset could be reidentified, especially if the data are combined with other information (Narayanan and Felten, 2014).  
     
     Another group of unintended consequences stem from poor explanation or documentation of our project. For example, 
     
@@ -118,6 +118,8 @@ Hu, S. (2020, March 26). *Weibo – How is China’s second largest social media
 Liu, N., Feng, Q. and Hu, X. (2022). Chapter 7: Interpretability in Graph Neural Networks. In Wu, L., Cui, P., Pei, J., and Zhao, L. (Eds.), *Graph Neural Networks: Foundations, Fronteirs, and Applications*, pp. 121-147. https://graph-neural-networks.github.io/static/file/chapter7.pdf 
 
 Mengzhen, W. (2019, May 19). *China's national library to archive 200 billion Sina Weibo posts*. CGTN. https://news.cgtn.com/news/3d3d674d79677a4e34457a6333566d54/index.html 
+
+Narayanan, A. and Felten, E.W. (2014). No silver bullet: De-identification still doesn't work. https://www.cs.princeton.edu/~arvindn/publications/no-silver-bullet-de-identification.pdf
 
 Nissenbaum, H. (2011). A Contextual Approach to Privacy Online. *Daedalus, 140* (4): 32–48. doi: https://doi.org/10.1162/DAED_a_00113
 
