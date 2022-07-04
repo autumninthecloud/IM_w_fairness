@@ -7,6 +7,7 @@ In an effort to improve understanding of the ethical considerations of this proj
 PDFs of the literature we cite in our References section can be found [here](https://github.com/autumninthecloud/IM_w_fairness/tree/main/Ethics/Literature).
 
 ## A. Data Collection
+
  - [X] **A.1 Informed consent**: If there are human subjects, have they given informed consent, where subjects affirmatively opt-in and have a clear understanding of the data uses to which they consent?
        
     *Weibo users have consented to third-party statistical analysis of their data by agreeing to Sina Weibo's [Privacy Policy](https://weibo.com/signup/v5/privacy). Many have raised doubts that obtaining this type of consent via a Privacy Policy is truly "informed" and is deeply dependent on context (Nissenbaum, 2011). A recent article quoting Sina Weibo users' views on archiving their data for additional uses reveal some discomfort with the idea (Mengzhen, 2019). Use of Sina Weibo data is increasing, in part due to the establishment of an API in 2014 (Hu, 2020). For our analyses, we focus on data from 2009-2010, before the creation of the Sina Weibo API. The broader context of data privacy in China has changed vastly since that time and China has recently passed new laws that offer protections to users that are similar to GDPR (Pernot-Leplay, 2020). Users who posted on Sina Weibo at that time may have even less of an expectation and understanding of additional third-party data analysis than users today. However, we consider our analyses (centered on how users share information in the network and how to maximize their influence fairly) to be closely related to the administration of Sina Weibo's services themselves and likely aligned to user expectations around data use.*
@@ -24,6 +25,7 @@ PDFs of the literature we cite in our References section can be found [here](htt
     *Our analysis is focused on testing downstream results for biased outcomes.*
 
 ## B. Data Storage
+
  - [X] **B.1 Data security**: Do we have a plan to protect and secure data (e.g., encryption at rest and in transit, access controls on internal users and third parties, access logs, and up-to-date software)?
 
      _The data are publicly available, so we do not have a plan to protect and secure data._
@@ -39,6 +41,7 @@ PDFs of the literature we cite in our References section can be found [here](htt
    *We are keeping a version of the data we used available indefinitely, for the purposes of replication (see below). Since these data are available via an API and have been used in other research (e.g., [here](https://www.aminer.org/influencelocality)), we assume that they will be available online outside of our activity. So, the possibility for use for replication purposes outweighs the costs of keeping them available to others (even if our activities may have increased the accessibility of these data). However, we are open to considering deleting our version the data. Please email us if you think these data should be deleted: team-influencers@googlegroups.com.*
 
 ## C. Analysis
+
  - [x] **C.1 Missing perspectives**: Have we sought to address blindspots in the analysis through engagement with relevant stakeholders (e.g., checking assumptions and discussing implications with affected communities and subject matter experts)?
 
     *We have discussed our research with subject matter experts at the University of California, Berkeley I School. We do not have connections to Sina Weibo users and were not able to speak with affected communities, which is a major blindspot in our research. We do not -- for example -- understand their perspective on our definition of fairness and any harms associated with the way we conducted our research.*
@@ -73,6 +76,7 @@ PDFs of the literature we cite in our References section can be found [here](htt
  - [ ] **D.3 Metric selection**: Have we considered the effects of optimizing for our defined metrics and considered additional metrics?
 
      _This project is focused on improving current metrics for selecting influencers in a network based on influence alone. Here, we are incorporating an additional measure of fairness. We have not considered additional metrics for this project. Future work might want to consider other ways of measuring fairness, which is an active area of research (e.g., as explained in [this YouTube video](https://www.youtube.com/watch?v=g-z84_nRQhw))._
+     
  - [ ] **D.4 Explainability**: Can we explain in understandable terms a decision the model made in cases where a justification is needed?
 
     *Although not as interpretable as models based on logistic regression or random forest, graph neural networks (GNNs) are considered by some to be more interpretable compared to traditional deep models like convolutional neural networks (Liu et al., 2022) due to their reliance on a graph data format. However, post-hoc explanation methods are still typically needed for understanding their output. Different explanations may be needed for different types of GNNs, such as the type built to solve the Influence Maximization (IM) problem with fairness, here. Explaining IM algorithms is a field of research in and of itself and outside of the scope of our project. In future iterations on this IM algorithm, we could consider methods like interpretable decision trees, which have been shown to be effective methods for IM algorithms more generally (Yadav et al., 2017).*
@@ -91,7 +95,13 @@ PDFs of the literature we cite in our References section can be found [here](htt
     *Since we are not deploying the model, this item does not apply.*
  - [x] **E.4 Unintended use**: Have we taken steps to identify and prevent unintended uses and abuse of the model and do we have a plan to monitor these once the model is deployed?
 
-    *Since we are not deploying the model, this item does not apply. However, we are sensitive to the unintended consequences of this project more generally, which we have discussed via a [Consequences Scanning exercise](https://doteveryone.org.uk/project/consequence-scanning/). The outcome of our application of this exercise to this project can be found **HERE -- INSERT LINK TO BOARD***
+    *Since we are not deploying the model, this item does not apply. However, we are sensitive to the unintended consequences of this project more generally, which we have discussed via a [Consequences Scanning exercise](https://doteveryone.org.uk/project/consequence-scanning/). 
+    
+    One set of unintended consequences relates to increased access of the Sina Weibo dataset.
+    
+    Another group of unintended consequences stem from poor explanation or documentation of our project. For example, 
+    
+    An additional category of unintended consequences is concerned with unintended use of the algorithm if it were to be deployed. *
 
 *Data Science Ethics Checklist generated with [deon](http://deon.drivendata.org).*
 
