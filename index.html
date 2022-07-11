@@ -26,7 +26,7 @@
 		<div id="example-wrapper">
 			<div class="scrollContent">
 				<section id="titlechart" style="padding-top:50px;">
-					<img src="images/slide_1.jpg" style="width:100%;">
+					<img src="images/slide_1.jpg" style="width:80%;">
 					<script>
 						// init controller
 						var controller = new ScrollMagic.Controller();
@@ -59,7 +59,7 @@
 					<div class="spacer s2"></div>
 					<div id="trigger1" class="spacer s0"></div>
 					<div id="reveal1">
-						<img src="images/Weekly_Slide_Review-6_28_slide2.jpg" style="width:100%;">
+						<img src="images/slide_2.jpg" style="width:80%;">
 					</div>
 					<div class="spacer s2"></div>
 					<script>
@@ -71,6 +71,49 @@
 												offset: 50 // move trigger to center of element
 											})
 											.setClassToggle("#reveal1", "visible") // add class to reveal
+											.addIndicators() // add indicators (requires plugin)
+											.addTo(controller);
+					</script>
+				</section>
+				<section class="demo">
+					<style type="text/css">
+						#reveal1 {
+							opacity: 0;
+							-webkit-transform: scale(0.9);
+								 -moz-transform: scale(0.9);
+									-ms-transform: scale(0.9);
+									 -o-transform: scale(0.9);
+											transform: scale(0.9);
+							-webkit-transition: all 1s ease-in-out;
+								 -moz-transition: all 1s ease-in-out;
+									-ms-transition: all 1s ease-in-out;
+									 -o-transition: all 1s ease-in-out;
+											transition: all 1s ease-in-out;
+						}
+						#reveal1.visible {
+							opacity: 1;
+							-webkit-transform: none;
+								 -moz-transform: none;
+									-ms-transform: none;
+									 -o-transform: none;
+											transform: none;
+						}
+					</style>
+					<div class="spacer s3"></div>
+					<div id="trigger2" class="spacer s0"></div>
+					<div id="reveal2">
+						<img src="images/slide_3.jpg" style="width:80%;">
+					</div>
+					<div class="spacer s3"></div>
+					<script>
+							// build scene
+							new ScrollMagic.Scene({
+												triggerElement: "#trigger2",
+												triggerHook: 0.9, // show, when scrolled 10% into view
+												duration: "80%", // hide 10% before exiting view (80% + 10% from bottom)
+												offset: 50 // move trigger to center of element
+											})
+											.setClassToggle("#reveal2", "visible") // add class to reveal
 											.addIndicators() // add indicators (requires plugin)
 											.addTo(controller);
 					</script>
@@ -99,22 +142,22 @@
 											transform: none;
 						}
 					</style>
-					<div class="spacer s2" style="min-height: 1000px;"></div>
-					<div id="trigger2" class="spacer s0"></div>
-					<div id="reveal2">
+					<div class="spacer s3" style="min-height: 1000px;"></div>
+					<div id="trigger3" class="spacer s0"></div>
+					<div id="reveal3">
 						<p>I will stay visible once revealed.<br>(reload to see effect again)</p>
 						<a href="#" class="viewsource">view source</a>
 					</div>
-					<div class="spacer s2"></div>
+					<div class="spacer s3"></div>
 					<script>
 							// build scene
 							new ScrollMagic.Scene({
-												triggerElement: "#trigger2",
+												triggerElement: "#trigger3",
 												triggerHook: 0.9,
 												offset: 50, // move trigger to center of element
 												reverse: false // only do once
 											})
-											.setClassToggle("#reveal2", "visible") // add class toggle
+											.setClassToggle("#reveal3", "visible") // add class toggle
 											.addIndicators() // add indicators (requires plugin)
 											.addTo(controller);
 					</script>
