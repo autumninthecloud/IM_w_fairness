@@ -26,7 +26,7 @@
 		<div id="example-wrapper">
 			<div class="scrollContent">
 				<section id="titlechart" style="padding-top:50px;">
-					<img src="images/slide_1.jpg" style="width:80%;">
+					<img src="images/image_1_b.svg" style="width:80%;">
 					<script>
 						// init controller
 						var controller = new ScrollMagic.Controller();
@@ -59,9 +59,9 @@
 					<div class="spacer s2"></div>
 					<div id="trigger1" class="spacer s0"></div>
 					<div id="reveal1">
-						<img src="images/slide_2.jpg" style="width:80%;">
+						<img src="images/image_2_b.svg" style="width:80%;">
 					</div>
-					<div class="spacer s2"></div>
+					<div class="spacer s1"></div>
 					<script>
 							// build scene
 							new ScrollMagic.Scene({
@@ -102,9 +102,95 @@
 					<div class="spacer s3"></div>
 					<div id="trigger2" class="spacer s0"></div>
 					<div id="reveal1">
-						<img src="images/slide_3.jpg" style="width:80%;">
+						<img src="images/image_3_b.svg" style="width:80%;">
 					</div>
+					<div class="spacer s1"></div>
+					<script>
+							// build scene
+							new ScrollMagic.Scene({
+												triggerElement: "#trigger2",
+												triggerHook: 0.9, // show, when scrolled 10% into view
+												duration: "80%", // hide 10% before exiting view (80% + 10% from bottom)
+												offset: 50 // move trigger to center of element
+											})
+											.setClassToggle("#reveal1", "visible") // add class to reveal
+											.addIndicators() // add indicators (requires plugin)
+											.addTo(controller);
+					</script>
+				</section>
+								<section class="demo">
+					<style type="text/css">
+						#reveal1 {
+							opacity: 0;
+							-webkit-transform: scale(0.9);
+								 -moz-transform: scale(0.9);
+									-ms-transform: scale(0.9);
+									 -o-transform: scale(0.9);
+											transform: scale(0.9);
+							-webkit-transition: all 1s ease-in-out;
+								 -moz-transition: all 1s ease-in-out;
+									-ms-transition: all 1s ease-in-out;
+									 -o-transition: all 1s ease-in-out;
+											transition: all 1s ease-in-out;
+						}
+						#reveal1.visible {
+							opacity: 1;
+							-webkit-transform: none;
+								 -moz-transform: none;
+									-ms-transform: none;
+									 -o-transform: none;
+											transform: none;
+						}
+					</style>
 					<div class="spacer s3"></div>
+					<div id="trigger2" class="spacer s0"></div>
+					<div id="reveal1">
+						<img src="images/image_4_b.svg" style="width:80%;">
+					</div>
+					<div class="spacer s1"></div>
+					<script>
+							// build scene
+							new ScrollMagic.Scene({
+												triggerElement: "#trigger2",
+												triggerHook: 0.9, // show, when scrolled 10% into view
+												duration: "80%", // hide 10% before exiting view (80% + 10% from bottom)
+												offset: 50 // move trigger to center of element
+											})
+											.setClassToggle("#reveal1", "visible") // add class to reveal
+											.addIndicators() // add indicators (requires plugin)
+											.addTo(controller);
+					</script>
+				</section>
+								<section class="demo">
+					<style type="text/css">
+						#reveal1 {
+							opacity: 0;
+							-webkit-transform: scale(0.9);
+								 -moz-transform: scale(0.9);
+									-ms-transform: scale(0.9);
+									 -o-transform: scale(0.9);
+											transform: scale(0.9);
+							-webkit-transition: all 1s ease-in-out;
+								 -moz-transition: all 1s ease-in-out;
+									-ms-transition: all 1s ease-in-out;
+									 -o-transition: all 1s ease-in-out;
+											transition: all 1s ease-in-out;
+						}
+						#reveal1.visible {
+							opacity: 1;
+							-webkit-transform: none;
+								 -moz-transform: none;
+									-ms-transform: none;
+									 -o-transform: none;
+											transform: none;
+						}
+					</style>
+					<div class="spacer s3"></div>
+					<div id="trigger2" class="spacer s0"></div>
+					<div id="reveal1">
+						<img src="images/image_5_b.svg" style="width:80%;">
+					</div>
+					<div class="spacer s1"></div>
 					<script>
 							// build scene
 							new ScrollMagic.Scene({
