@@ -129,6 +129,7 @@
 						text-align: center; 
 						font-style: normal;
 						position: absolute;
+						width: 80%;
 						color: #FFF;
 						}
 						</style>
@@ -139,25 +140,7 @@
 						<a href="https://github.com/autumninthecloud/IM_w_fairness" style="font-size: 30pt; color: #32CD32;">{GITHUB REPO}</a>
 						</p>
 					</div>
-					<div class="spacer s2"></div>
-					<script>
-							// build Tween
-							var tween = new TimelineMax()
-								.from("#gsap-anim", 1.5, {rotationY: 180, scale: 0.7, opacity: 0})
-								.to("#gsap-anim", 1.5, {rotationY: 180, scale: 0.7, opacity: 0, delay: 7});
-
-
-							// build scene
-							new ScrollMagic.Scene({
-												triggerElement: "#gsap-trigger",
-												triggerHook: "onEnter", // show, when scrolled 10% into view
-												duration: "100%", // use full viewport
-												offset: 50 // move trigger to center of element
-											})
-											.setTween(tween)
-											.addIndicators({name: "GSAP"}) // add indicators (requires plugin)
-											.addTo(controller);
-					</script>
+					<div class="spacer s2"></div>\
 				</section>
 				<div class="spacer s_viewport"></div>
 			</div>
