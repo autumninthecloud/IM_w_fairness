@@ -40,8 +40,17 @@
 </head>
 
 <body translate="no" >
-	// Slide 1 //
-	<section class="first panel"  style="background-image: url(images/final/slide_1f.svg); ">
+	<section class="first panel">
+		<video autoplay muted loop class="html5-video">
+	  		<source src="images/video.mp4" type="video/mp4">
+		</video>
+		<script type="text/javascript">
+			document.querySelector('video').playbackRate = 0.5;
+		</script>
+		<h1 style="position: absolute; left: 50%; top: 50%; font: Poppins;">khello world</h1>
+	</section>
+	<!-- // Slide 1 // -->
+	<section class="panel"  style="background-image: url(images/final/slide_1f.svg); ">
 	</section>
 	// Slide 2 //
 	<section class="panel"  style="background-image: url(images/final/slide_2f.svg); ">
@@ -85,6 +94,10 @@
 	// Slide 15 //
 	<section class="panel"  style="background-image: url(images/final/slide_15f.svg); ">
 	</section>
+
+	<section class="panel">
+		<h1 style="position: absolute; left: 50%; top: 50%; font: Poppins;">goodbye</h1>
+	</section>
 	
 	// Java scripts //
 	<script src='assets/js/gsap-latest-beta.min.js'></script>
@@ -93,7 +106,7 @@
 		let sections = gsap.utils.toArray("section"),
 		currentSection = sections[0];
 		
-		gsap.defaults({ overwrite: 'auto', duration: 0.3 });
+		gsap.defaults({ overwrite: 'auto', duration: 0 });
 		
 		// stretch out the body height according to however many sections there are. 
 		gsap.set("body", { height: sections.length * 100 + "%" });
@@ -106,24 +119,24 @@
 				end: () => (i + 0.5) * innerHeight,
 				// when a new section activates (from either direction), set the section accordinglyl.
 				onToggle: self => self.isActive && setSection(section) });
-				
-			});
-			
-			function setSection(newSection) {
-				if (newSection !== currentSection) {
-					gsap.to(currentSection, { scale: 0.8, autoAlpha: 0 });
-					gsap.to(newSection, { scale: 1, autoAlpha: 1 });
-					currentSection = newSection;
-				}
+
+		});
+
+		function setSection(newSection) {
+			if (newSection !== currentSection) {
+				gsap.to(currentSection, { scale: 0.8, autoAlpha: 0 });
+				gsap.to(newSection, { scale: 1, autoAlpha: 1 });
+				currentSection = newSection;
 			}
-			
+		}
+
 			// handles the infinite part, wrapping around at either end....
 			ScrollTrigger.create({
 				start: 1,
 				end: () => ScrollTrigger.maxScroll(window) - 1,
 				onLeaveBack: self => self.scroll(ScrollTrigger.maxScroll(window) - 2),
 				onLeave: self => self.scroll(2) }).
-				scroll(2);
+			scroll(2);
 				//# sourceURL=pen.js
 			</script>
 		</body>
