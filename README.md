@@ -1,5 +1,8 @@
-# Influence Maximization with Fairness in Social Networks at Scale
+# Influence Maximization and Fairness in Social Networks at Scale
 
+<p align="center">
+  <img src="images/test_influencers.gif)" alt="graph network" />
+</p>
 ![](images/test_influencers.gif)
 
 This README provides an overview of a project completed as part of UC Berkeley's Masters of Information and Data Science program (see "Who We Are" section below). You can find a more visual representation of our project on our Github Page: https://autumninthecloud.github.io/IM_w_fairness/ 
