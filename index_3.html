@@ -4,12 +4,17 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta charset="UTF-8">
 	<title>MIDS W210 - Team Influencers</title>
-	<base href="https://autumninthecloud.github.io/IM_w_fairness/" target="_blank">
+	<base href="https://autumninthecloud.github.io/IM_w_fairness/">
 
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic|Josefin+Slab:400,700italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="assets/css/main.css" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-	
+
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
 	<style>
 		html, body {
 			height: 100%;
@@ -20,6 +25,9 @@
 			font-weight: 300;
 			background-color: #302d38;
 		}
+		header {
+			background-color: transparent!important;
+		}
 		.panel {
 			position: fixed;
 			width: 100%;
@@ -27,129 +35,178 @@
 			top: 0%;
 			left: 0%;
 			background-size: 100% 100%;
+			/*justify-content: left;*/
+			/*align-items: start;*/
+			padding: 0 0 0 0;
+			/*display: block;*/
 		}
-		
+		.first {
+			background-color: transparent!important;
+		}
+		.container-fluid {
+			padding-left: 0;
+		}
+
 		section:not(.first) {
 			opacity: 0;
 			visibility: hidden;
 			transform: scale(0.8);
 		}
+
+		h1, h2, p, li {
+			max-width: 90%; 
+		}
+		#navbar_top {
+			background-color: transparent!important;
+			height: 40px;
+		}
 	</style>
-	
-	
+
+
 </head>
 
 <body translate="no" >
-	<section class="first panel">
-		<video autoplay muted loop class="html5-video">
-	  		<source src="images/video.mp4" type="video/mp4">
-		</video>
-		<script type="text/javascript">
-			document.querySelector('video').playbackRate = 0.5;
-		</script>
-		<h1 style="position: absolute; left: 5%; top: 25%; text-align: left; font; text-shadow: darkgreen 0px 0px 10px; font-size: 50pt;">Maximizing Influence<br>and Fairness<br>in Social Networks<br>at Scale</h1>
-	</section>
-	<!-- // Slide 1 // -->
-	<section class="panel"  style="background-image: url(images/final/slide_1f.svg); ">
-	</section>
-	<!-- // Slide 2 // -->
-	<section class="panel"  style="background-image: url(images/final/slide_2f.svg); ">
-	</section>
-	<!-- // Slide 3 // -->
-	<section class="panel"  style="background-image: url(images/final/slide_3f.svg); ">
-	</section>
-	<!-- // Slide 4 // -->
-	<section class="panel"  style="background-image: url(images/final/slide_4f.svg); ">
-	</section>
-	<!-- // Slide 5 // -->
-	<section class="panel"  style="background-image: url(images/final/slide_5f.svg); ">
-	</section>
-	<!-- // Slide 6 // -->
-	<section class="panel"  style="background-image: url(images/final/slide_6f.svg); ">
-	</section>
-	<!-- // Slide 7 // -->
-	<section class="panel"  style="background-image: url(images/final/slide_7f.svg); ">
-	</section>
-	<!-- // Slide 8 // -->
-	<section class="panel"  style="background-image: url(images/final/slide_8f.svg); ">
-	</section>
-	<!-- // Slide 9 // -->
-	<section class="panel"  style="background-image: url(images/final/slide_9f.svg); ">
-	</section>
-	<!-- // Slide 10 // -->
-	<section class="panel"  style="background-image: url(images/final/slide_10f.svg); ">
-	</section>
-	<!-- // Slide 11 // -->
-	<section class="panel"  style="background-image: url(images/final/slide_11f.svg); ">
-	</section>
-	<!-- // Slide 12 // -->
-	<section class="panel"  style="background-image: url(images/final/slide_12f.svg); ">
-	</section>
-	<!-- // Slide 13 // -->
-	<section class="panel"  style="background-image: url(images/final/slide_13f.svg); ">
-	</section>
-	<!-- // Slide 14 // -->
-	<section class="panel"  style="background-image: url(images/final/slide_14f.svg); ">
-	</section>
-	<!-- // Slide 15 // -->
-	<section class="panel"  style="background-image: url(images/final/slide_15f.svg); ">
-	</section>
 
-	<!-- Ethics content -->
-	<section class="panel">
-    	<div class="column" style="font: Poppins; background-color:#4e6fa2;">
-        <h1>Our project updates influence maximization to find the most fair and impactful influencers.</h1>
-        <p style="font: Poppins; text-align: center;">We are replicating prior (unpublished) research from a team of researchers, including Prof. Puya Vahabi and Prof. Alberto Todeschini at University of California, Berkeley’s School of Information.</p>
-    	</div>
-    </div>
+	<header>
+		<nav id="navbar_top" class="navbar navbar-expand-sm navbar-dark bg-dark">
+			<div class="container-fluid">
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#" onclick="return goTo(0);">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" onclick="return goTo(1);">Page <1></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" onclick="return goTo(2);"><2></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" onclick="return goTo(3);"><3></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" onclick="return goTo(4);"><4></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+<main id="main">
+
+	<section id="slide0" class="first panel">
+		<video style="display: inherit;" autoplay muted loop class="html5-video"><source src="images/video.mp4" type="video/mp4"></video>
+			<script type="text/javascript">document.querySelector('video').playbackRate = 0.5;</script>
+			<h1 style="position: absolute; left: 5%; top: 25%; text-align: left; font; text-shadow: darkgreen 0px 0px 10px; font-size: 50pt;">Maximizing Influence<br>and Fairness<br>in Social Networks<br>at Scale</h1>
+			<!-- AUTUMN AUTUMN : upload the linked image to GitHub -->
+			<!-- AUTUMN AUTUMN : upload the linked image to GitHub -->
+			<!-- AUTUMN AUTUMN : upload the linked image to GitHub -->
+			<!-- AUTUMN AUTUMN : upload the linked image to GitHub -->
+			<!-- AUTUMN AUTUMN : upload the linked image to GitHub -->
+			<div class="scroll-down" style="color: white; font: Poppins;">Scroll up or down<div class="arrow" style="background-image: url(https://camphkc.org/wp-content/uploads/2019/09/arrow-down-animated.gif); top: 0px; height: 40px; width: 40px;"></div></div>
+		</section>
+		<!-- // Slide 1 // -->
+		<section id="slide1" class="panel"  style="background-image: url(images/final/slide_1f.svg); ">
+		</section>
+		<!-- // Slide 2 // -->
+		<section id="slide2" class="panel"  style="background-image: url(images/final/slide_2f.svg); ">
+		</section>
+		<!-- // Slide 3 // -->
+		<section class="panel"  style="background-image: url(images/final/slide_3f.svg); ">
+		</section>
+		<!-- // Slide 4 // -->
+		<section class="panel"  style="background-image: url(images/final/slide_4f.svg); ">
+		</section>
+		<!-- // Slide 5 // -->
+		<section class="panel"  style="background-image: url(images/final/slide_5f.svg); ">
+		</section>
+		<!-- // Slide 6 // -->
+		<section class="panel"  style="background-image: url(images/final/slide_6f.svg); ">
+		</section>
+		<!-- // Slide 7 // -->
+		<section class="panel"  style="background-image: url(images/final/slide_7f.svg); ">
+		</section>
+		<!-- // Slide 8 // -->
+		<section class="panel"  style="background-image: url(images/final/slide_8f.svg); ">
+		</section>
+		<!-- // Slide 9 // -->
+		<section class="panel"  style="background-image: url(images/final/slide_9f.svg); ">
+		</section>
+		<!-- // Slide 10 // -->
+		<section class="panel"  style="background-image: url(images/final/slide_10f.svg); ">
+		</section>
+		<!-- // Slide 11 // -->
+		<section class="panel"  style="background-image: url(images/final/slide_11f.svg); ">
+		</section>
+		<!-- // Slide 12 // -->
+		<section class="panel"  style="background-image: url(images/final/slide_12f.svg); ">
+		</section>
+		<!-- // Slide 13 // -->
+		<section class="panel"  style="background-image: url(images/final/slide_13f.svg); ">
+		</section>
+		<!-- // Slide 14 // -->
+		<section class="panel"  style="background-image: url(images/final/slide_14f.svg); ">
+		</section>
+		<!-- // Slide 15 // -->
+		<section class="panel"  style="background-image: url(images/final/slide_15f.svg); ">
+		</section>
+
+		<!-- Ethics content -->
+		<section class="panel">
+			<div class="column" style="font: Poppins; background-color:#4e6fa2;">
+				<h1>Our project updates influence maximization to find the most fair and impactful influencers.</h1>
+				<p style="font: Poppins; text-align: center;">We are replicating prior (unpublished) research from a team of researchers, including Prof. Puya Vahabi and Prof. Alberto Todeschini at University of California, Berkeley’s School of Information.</p>
+			</div>
+		</div>
 
 	</section>
 	<section class="panel">
 		<h1 style="font: Poppins; position: absolute; text-align: center;">A large component of this project focused on incorporating our 
 			learnings from MIDS courses centered on ethics and privacy.<br> We utilizted two tools to accomplish this:<br>
 			<p style="font: Poppins; font-size: 30pt; color: white; position:  absolute;text-align: left; left: 15%">
-			1. <a href="https://github.com/autumninthecloud/IM_w_fairness/blob/main/Ethics/ETHICS.md" style="font:  Poppins; font-size: 30pt; color: teal;">  Deon Checklist</a><br>
-			2. <a href="https://github.com/autumninthecloud/IM_w_fairness" style="font:  Poppins; font-size: 30pt; color: teal;">  Consequences Scanning</a></p>
-		</h1>
-	</section>
+				1. <a href="https://github.com/autumninthecloud/IM_w_fairness/blob/main/Ethics/ETHICS.md" style="font:  Poppins; font-size: 30pt; color: teal;">  Deon Checklist</a><br>
+				2. <a href="https://github.com/autumninthecloud/IM_w_fairness" style="font:  Poppins; font-size: 30pt; color: teal;">  Consequences Scanning</a></p>
+			</h1>
+		</section>
 
-	<section class="panel">
-		<h1 style="font: Poppins; font-size: 30pt;position: relative; text-align: center;"> It is important to note that fairness has several definitions mathematically and ethically. For this project, we utilized a definition of fairness similar to that of demographic parity.<br><br> Demographic parity might not be the best measurement in every context.<br><br>
-		<p style="font: Poppins; font-size: 18pt; color: white; position: absolute; text-align: center;">For example, we might want to consider demographic characteristics of the influencers we select (especially since being an influencer can be an extremely lucrative venture).</p>
-		</h1>
-	</section>
+		<section class="panel">
+			<h1 style="font: Poppins; font-size: 30pt;position: relative; text-align: center;"> It is important to note that fairness has several definitions mathematically and ethically. For this project, we utilized a definition of fairness similar to that of demographic parity.<br><br> Demographic parity might not be the best measurement in every context.<br><br>
+				<p style="font: Poppins; font-size: 18pt; color: white; position: absolute; text-align: center;">For example, we might want to consider demographic characteristics of the influencers we select (especially since being an influencer can be an extremely lucrative venture).</p>
+			</h1>
+		</section>
 
-	<section class="panel">
-		<h1 style="font: Poppins; font-size: 26pt;position: fixed; text-align: center;"> Another ethical consideration in this project is a limitation with respect to which demographic variables are included in the algorithm. For this project, we only looked at gender. Furthermore, we only considered two categories of gender (male or female) and ignored information spread amongst people who identify in other ways.<br><br>
-		<p style="font: Poppins; font-size: 16pt; color: white; position: absolute; text-align: center;">What if we end up with uneven information spread to individuals who identify as transgender (or another gender)? What if we manage to spread information evenly with respect to gender, but not with respect to income? Is this still fair?</p>
-		</h1>
-	</section>
+		<section class="panel">
+			<h1 style="font: Poppins; font-size: 26pt;position: fixed; text-align: center;"> Another ethical consideration in this project is a limitation with respect to which demographic variables are included in the algorithm. For this project, we only looked at gender. Furthermore, we only considered two categories of gender (male or female) and ignored information spread amongst people who identify in other ways.<br><br>
+				<p style="font: Poppins; font-size: 16pt; color: white; position: absolute; text-align: center;">What if we end up with uneven information spread to individuals who identify as transgender (or another gender)? What if we manage to spread information evenly with respect to gender, but not with respect to income? Is this still fair?</p>
+			</h1>
+		</section>
 
-	<section class="panel">
-		<h1 style="font: Poppins; font-size: 30pt;position: fixed; text-align: center; "> Future research should expand not only to additional demographic characteristics, but should also consider intersectionality, or how different attributes might combine.<br><br> 
-		<p style="font: Poppins; font-size: 18pt; color: white; position: absolute; text-align: center;">For example, we might spread information only amongst affluent females, but not females with low incomes. In the current application we would not have measured this but it would be unfair in most scenarios. We also might consider other definitions of fairness. </p>
-		</h1>
-	</section>
- 
-	<section class="panel">
-		<h1 style="position: absolute; text-align: center; font: Poppins;">If you’d like to dig further into ethical considerations in this project, 
-		please visit our Github repository, found 
-			<a href="https://github.com/autumninthecloud/IM_w_fairness" style="font:  Poppins; font-size: 30pt; color: #32CD32;">HERE.</a></h1>
-	</section>
-	<section class="panel">
-		<h1 style="position: absolute; text-align: center; font: Poppins;"
-		>Placeholder for project team info and acknowledgements.<br>B-Roll provided by <a rel="nofollow" href="http://www.videezy.com" style="font:  Poppins; font-size: 14pt; color: #32CD32;">Videezy</a></h1>
-	</section>
-	
-	// Java scripts //
-	<script src='assets/js/gsap-latest-beta.min.js'></script>
-	<script src='assets/js/ScrollTrigger.min.js'></script>
-	<script id="rendered-js" >
-		let sections = gsap.utils.toArray("section"),
-		currentSection = sections[0];
-		
-		gsap.defaults({ overwrite: 'auto', duration: 0 });
-		
+		<section class="panel">
+			<h1 style="font: Poppins; font-size: 30pt;position: fixed; text-align: center; "> Future research should expand not only to additional demographic characteristics, but should also consider intersectionality, or how different attributes might combine.<br><br> 
+				<p style="font: Poppins; font-size: 18pt; color: white; position: absolute; text-align: center;">For example, we might spread information only amongst affluent females, but not females with low incomes. In the current application we would not have measured this but it would be unfair in most scenarios. We also might consider other definitions of fairness. </p>
+			</h1>
+		</section>
+
+		<section class="panel">
+			<h1 style="position: absolute; text-align: center; font: Poppins;">If you’d like to dig further into ethical considerations in this project, 
+				please visit our Github repository, found 
+				<a href="https://github.com/autumninthecloud/IM_w_fairness" style="font:  Poppins; font-size: 30pt; color: #32CD32;">HERE.</a></h1>
+			</section>
+			<section class="panel">
+				<h1 style="position: absolute; text-align: center; font: Poppins;"
+				>Placeholder for project team info and acknowledgements.<br>B-Roll provided by <a rel="nofollow" href="http://www.videezy.com" style="font:  Poppins; font-size: 14pt; color: #32CD32;">Videezy</a></h1>
+			</section>
+		</main>
+		<!-- // Java scripts // -->
+		<script src='assets/js/gsap-latest-beta.min.js'></script>
+		<script src='assets/js/ScrollTrigger.min.js'></script>
+		<script id="rendered-js" >
+			let sections = gsap.utils.toArray("section"),
+			currentSection = sections[0];
+
+			gsap.defaults({ overwrite: 'auto', duration: 0 });
+
 		// stretch out the body height according to however many sections there are. 
 		gsap.set("body", { height: sections.length * 100 + "%" });
 		
@@ -179,9 +236,51 @@
 				onLeaveBack: self => self.scroll(ScrollTrigger.maxScroll(window) - 2),
 				onLeave: self => self.scroll(2) }).
 			scroll(2);
-				//# sourceURL=pen.js
-			</script>
-		</body>
-		</html>
-		
-		
+
+			function goTo(sectionNumber) {
+				setSection(gsap.utils.toArray('section')[sectionNumber]);
+				return false;
+			}
+
+
+		</script>
+
+
+		<script type="text/javascript">
+			var htmlElements = document.getElementsByClassName("panel");
+
+			first_row = `<nav id="navbar_top" class="navbar navbar-expand-sm navbar-dark bg-dark" style="background-color: black!important;">`;
+			other_rows = `<nav id="navbar_top" class="navbar navbar-expand-sm navbar-dark bg-dark>`;
+
+			content = `
+			<div class="container-fluid">
+			<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+			<li class="nav-item">
+			<a class="nav-link" href="#" onclick="setSection(gsap.utils.toArray('section')[0]); return false">Home</a>
+			</li>
+			<li class="nav-item">
+			<a class="nav-link" href="#slide1">Features</a>
+			</li>
+			<li class="nav-item">
+			<a class="nav-link" href="#slide2">Pricing</a>
+			</li>
+			</ul>
+			</div>
+			</div>
+			</nav>`;
+
+			for(var counter = 0; counter < htmlElements.length; counter++){
+				if(counter == 0) {
+					head = first_row;
+				} else {
+					head = other_rows;
+				}
+			// htmlElements[counter].innerHTML = head + content + htmlElements[counter].innerHTML;
+		};
+	</script>
+
+
+</body>
+</html>
+
