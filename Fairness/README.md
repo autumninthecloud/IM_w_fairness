@@ -18,8 +18,8 @@ Included in this folder are some select papers and videos that were helpful in l
 [Becker, R., D'Angelo, G., Ghobadi, S. and Gilbert, H. (2021). Fairness in Influence Maximization through Randomization.](https://arxiv.org/abs/2010.03438?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%253A+arxiv%252FQSXk+%2528ExcitingAds%2521+cs+updates+on+arXiv.org%2529)
 
 ## Regulations on Fairness
-[US - FTC's FTC Act & Policy on Fairness in advertising](https://www.ftc.gov/legal-library/browse/ftc-policy-statement-unfairness)
-[US - HUD's Act pertaining to nondiscriminatroy advertising](https://www.hud.gov/program_offices/fair_housing_equal_opp/fair_housing_act_overview)
+1. [US - FTC's FTC Act & Policy on Fairness in advertising](https://www.ftc.gov/legal-library/browse/ftc-policy-statement-unfairness)
+2. [US - HUD's Act pertaining to nondiscriminatroy advertising](https://www.hud.gov/program_offices/fair_housing_equal_opp/fair_housing_act_overview)
 
 ## Additional links
 
