@@ -246,4 +246,12 @@ Usability study participants
 
 [Prof. Morgan Ames](https://www.ischool.berkeley.edu/about/profiles/morgan-ames)
 
+Alastair Dant
+
+Joe Hoeller
+
+Justin Jeng
+
+Leo Meyerovich
+
 Ankitkumar Patel
