@@ -115,6 +115,13 @@ We’ll use a [greedy approach](https://en.wikipedia.org/wiki/Greedy_algorithm) 
 <details>
 
 [INSERT MORE IN-DEPTH EXPLANATION OF FAIRNESS]
+ 
+| Definition | Description | 
+| ----------- | ----------- |
+| Equality | Each group gets the same allocation (e.g., in this application, each group gets the same number of seed users or influencers). |
+| Maximin | Keep groups as similar as possible with respect to information spread within the group, relative to their size. |
+| Diversity | Each group receives information at least equal to how information spreads within the graph initiated by that group. |
+ | Equity | Any node's probability of being influenced is as similar as possibile, regardless of the node's group membership. |
 
 </details>
 
