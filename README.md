@@ -222,7 +222,7 @@ For anything else, please send us an email at team-influencers@googlegroups.com!
 
 ## Who we are
 
-We are Team Influencers, a group of students in the University of California, Berkeley's Masters of Information and Data Science program. We completed this project for our program capstone during the 2022 summer semester. You can find our [project on the Berkeley website] (https://www.ischool.berkeley.edu/projects/2022/team-influencers). Other capstone projects are listed on [this page](https://www.ischool.berkeley.edu/programs/mids/capstone). 
+We are Team Influencers, a group of students in the University of California, Berkeley's Masters of Information and Data Science program. We completed this project for our program capstone during the 2022 summer semester. You can find our [project on the Berkeley website](https://www.ischool.berkeley.edu/projects/2022/team-influencers). Other capstone projects are listed on [this page](https://www.ischool.berkeley.edu/programs/mids/capstone). 
 
 **Team Members (in alphabetical order)** 
 
