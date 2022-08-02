@@ -12,7 +12,7 @@ Continue reading below to understand the project itself, what our repo contains 
 ## Project Overview
 
 <p align=center>
-<img width=1000 src="images/socialnetwork_starwarsgif.gif" />
+<img width=700 src="images/socialnetwork_starwarsgif.gif" />
 </p>
 
 <details>
