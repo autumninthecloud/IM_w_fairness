@@ -1,7 +1,7 @@
 
 # Influence Maximization and Fairness in Social Networks at Scale
 
-[Project Overview](#project-overview)•[Influence Maximization](#influence-maximization)•[Fairness](#fairness)•[Solutions](#solutions)•[Contact Us](#contacting-us!)•[Who We Are](#who-we-are)
+[Project Overview](#project-overview)  •  [Influence Maximization](#influence-maximization)  •  [Fairness](#fairness)  •  [Solutions](#solutions)  •  [Contact Us](#contacting-us!)  •  [Who We Are](#who-we-are)
 
 <p align=center>
 <img width=350 src="images/test_influencers.gif" />
