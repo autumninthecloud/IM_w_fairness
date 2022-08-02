@@ -279,7 +279,7 @@ We are Team Influencers, a group of students in the University of California, Be
 
 **Team Members (in alphabetical order)** 
 
-[David Peletz](https://www.linkedin.com/in/david-peletz/)[![github](https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/github.svg)](https://github.com/dpeletz)
+[David Peletz](https://www.linkedin.com/in/david-peletz/)[![github](https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/github.svg | width=100)](https://github.com/dpeletz)
 
 [Autumn Rains](https://www.linkedin.com/in/autumninthecloud/)
 
