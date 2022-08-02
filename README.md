@@ -1,7 +1,7 @@
 
 # Influence Maximization and Fairness in Social Networks at Scale
 
-[Project Overview](#project-overview)  •  [Influence Maximization](#influence-maximization)  •  [Fairness](#fairness)  •  [Solutions](#solutions)  •  [Contact Us](#contacting-Us!)  •  [Who We Are](#who-we-are)
+[Project Overview](#project-overview)  •  [Repository](#repository)  •  [Contact Us](#contact-us)  •  [Who We Are](#who-we-are)
 
 This README provides an overview of a project completed as part of UC Berkeley's Masters of Information and Data Science program (see "Who We Are" section below). You can find a more visual representation of our project on our Github Page: https://autumninthecloud.github.io/IM_w_fairness/ 
 
@@ -117,7 +117,7 @@ From our research we have concluded that fairness can be introduced into influen
 
 This repository contains information and resources about this project (within the README and folders in the repo). We plan to share the code once the original paper has been published.
 
-## Contacting Us! 
+## Contact Us
 
 If you have any input on the content of this repo, please submit a pull request. 
 
