@@ -89,6 +89,7 @@ _Weibo dataset summary statistics_
 #### Budget
 
 The number of influencer users we are searching for. This is a subset of users whose influence spreads retweet content to the maximum number of users in the network. 
+
 #### Influence model
 
 We are using deep learning methods to predict the probability of a user appearing in a diffusion cascade started by a seed (influencer), independently of the two users’ distance in the network.
@@ -106,7 +107,7 @@ We’ll use a [greedy approach](https://en.wikipedia.org/wiki/Greedy_algorithm) 
 
 * **Influence spread:** Number of users infected by a set of seed users
 
-* **Seed users / Influencers:** The nodes that are the initial disseminators of an information
+* **Seed users / Influencers:** The nodes that are the initial disseminators of information
 
 </details>
 
@@ -121,7 +122,7 @@ In this project, we aimed to replicate the original author’s research using th
 
 Like other definitions of fairness, this definition hinges on treatment of individuals who identify in various ways with respect to sets of sensitive attributes. Sensitive attributes might include gender, race, ethnicity, country of origin, and many other ways individuals can identify themselves. 
  
-The original authors considered several possible definitions of fairness, outlined in the table below. Within the context of maximizing the spread of information through a network, the **Equity** definition seemed most appropriate. 
+The original authors considered several possible definitions of fairness, outlined in the table below. Within the context of maximizing the spread of information through a network, the **Equity** definition seemed most appropriate. One way to think about this concept of fairness within the IM context is to consider the distribution along a sensitive attribute (let's say gender) in the entire network versus that in the set of nodes that are influenced. If in the entire network 45% of users identify as male, 45% identify as female, 5% identify as transgender, 4% identify as non-binary, and 1% identify as one of a range of other genders, if information spread is fair we would expect a similar break-down along these categories amongst the people who retweeted our message (originally shared by our set of k influencers).
  
 | Definition |     Description     |Outcome in IM Context|
 | ----------- | ----------- | ----------- |
