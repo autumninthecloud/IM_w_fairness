@@ -117,11 +117,11 @@ We’ll use a [greedy approach](https://en.wikipedia.org/wiki/Greedy_algorithm) 
 [INSERT MORE IN-DEPTH EXPLANATION OF FAIRNESS]
  
 | Definition | Description | Outcome in IM Context |
-| ----------- | ----------- |
+| ----------- | ----------- | ----------- |
 | Equality | Each group gets the same allocation (e.g., in this application, each group gets the same number of seed users or influencers). | Focuses on how information is initiated, rather than spread. This means that information may end up spreading unevenly even though the distribution among the influencers is "fair". |
 | Maximin | Keep groups as similar as possible with respect to information spread within the group, relative to their size. | Since the information spread must be similar across groups, the overall spread might be limited by the least connected group. If any group is much less well-connected, this might introduce too much of a drop in overall information spread. |
 | Diversity | Each group receives information at least equal to how information spreads within the graph initiated by that group. | Since groups that spread more information end up receiving more (and vice versa), information spread might be very uneven across groups (depending on how different they are with respect to spreading information). |
- | Equity | Any node's probability of being influenced is as similar as possible, regardless of the node's group membership. | Information spread within a group should occur in proportion to its overall share of nodes in the graph. |
+| Equity | Any node's probability of being influenced is as similar as possible, regardless of the node's group membership. | Information spread within a group should occur in proportion to its overall share of nodes in the graph. |
 
 </details>
 
