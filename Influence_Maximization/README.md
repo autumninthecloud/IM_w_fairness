@@ -40,7 +40,7 @@ Greedy algorithm code walk-through
 
 [Influence Maximization presentation from Microsoft](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/kdd12-tutorial-inf-part-iii.pdf) that details different algorithms, computational complexity, and community clustering algorithms.
 
-## Graph Theory 101:
+## Graph Theory 101
 
 [Introduction to Graph Theory | Baeldung on Computer Science](https://www.baeldung.com/cs/graph-theory-intro)
 
