@@ -122,9 +122,10 @@ In the final stage, the learned influencer embeddings and diffusion probabilitie
 The researchers used a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) for selecting the best influencer at each step. The influenced target users (“infected”) are then removed, and this process is repeated until the budgeted number of influencers is reached.
 
 At a high level, this is how the algorithm is applied in each step:
-For each influencer, an expected number of infected users is calculated based on the magnitude of its embedding from the neural network. The expected number of infected users is simply the proportion of this embedding magnitude over all influencers’ embedding magnitudes which is then multiplied by the number of users in the network. 
-The diffusion probabilities, which are derived by multiplying the influencer and target embedding matrices (specifics can be found in the original research paper), are used to identify users with the highest probability of being infected by each influencer. 
-The influencer with highest cumulative diffusion probabilities is selected, and its top infected set of users are removed before beginning this process again.
+ 
+1. For each influencer, an expected number of infected users is calculated based on the magnitude of its embedding from the neural network. The expected number of infected users is simply the proportion of this embedding magnitude over all influencers’ embedding magnitudes which is then multiplied by the number of users in the network. 
+2. The diffusion probabilities, which are derived by multiplying the influencer and target embedding matrices (specifics can be found in the original research paper), are used to identify users with the highest probability of being infected by each influencer. 
+3. The influencer with highest cumulative diffusion probabilities is selected, and its top infected set of users are removed before beginning this process again.
 
 
 </details>
@@ -180,15 +181,25 @@ Overall, we agree with the initial assumptions that a deep learning based approa
 ### Conclusion 
 
 <details>
+ 
 Targeting key influential people to spread information efficiently to a broader audience is a growing need for marketers advertising products or services as well as for policymakers looking to inform or educate the public. Machine learning techniques like Influence Maximization (IM) are a viable solution to these needs. Sensitive attributes like race or gender of users within a network are key variables to include when training machine learning models to reduce bias and unfair information spread. Our research used existing IM algorithms on a social network dataset from Sina Weibo, a social network in China, that was composed of tweets and retweets to study fair information spread. Profile information of users was utilized to classify users within one of two gender groups: male and female. From these aggregations, we trained and tested two IM models to study how information was spread and if fairness could be maintained.
 
 From our research we have concluded that fairness can be introduced into influence maximization algorithms successfully. The two models studied in our research perform well compared to current cutting-edge IM models. We also incorporated ethical frameworks with our research in line with best practice to maintain privacy and fair use of user data. Future areas of work should focus on alternative definitions of fairness as well as continuing research of the ethical implications of utilizing user data for testing to protect privacy and minimize harm. We plan to incorporate additional sensitive attributes of user profiles such as location or topics of retweets to understand how the fair spread of information in social networks can be impacted.
 
 </details>
 
-## Repository 
+## How to learn more 
 
-This repository contains information and resources about this project (within the README and folders in the repo). We plan to share the code once the original paper has been published.
+Please feel free to use the information and resources in this repository (within the README and folders in the repo). We plan to share the code once the original paper has been published.
+
+We recommend the following additional resources to learn more about graphs (and graph neural networks): 
+
+[Stanford CS224W: Machine Learning with Graphs](https://web.stanford.edu/class/cs224w/)
+[A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/)
+[Must-read papers on GNN](https://github.com/thunlp/GNNPapers)
+[Open Graph Benchmark: Benchmark datasets, data loaders and evaluators for graph machine learning](https://ogb.stanford.edu/)
+[NetworkX Tutorial](https://networkx.org/documentation/stable/tutorial.html)
+
 
 ## Contact Us
 
