@@ -133,7 +133,7 @@ For FAC, instead of modifying the training data, fairness is incorporated by add
  
 #### Greedy Algorithm
 
-In the final stage, the learned influencer embeddings and diffusion probabilities are used in an  optimization algorithm to select the top influencers with the highest influence magnitude. 
+In the final stage, the learned influencer embeddings and diffusion probabilities are used in an optimization algorithm to select the top influencers with the highest influence magnitude. 
 
 The researchers used a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) for selecting the best influencer at each step. The influenced target users (“infected”) are then removed, and this process is repeated until the budgeted number of influencers is reached.
 
