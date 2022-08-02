@@ -142,7 +142,9 @@ We employed the [deon command line checklist](https://deon.drivendata.org/) and 
 <details>
  <summary>Glossary</summary>
 
-* **Sensitive attributes:** According to Google Developers' Machine Learning Glossary, “A human attribute that may be given special consideration for legal, ethical, social, or personal reasons.” 
+* **Intersectionality:** According to the [Oxford Dictionary](https://www.cjr.org/language_corner/intersectionality.php), “the interconnected nature of social categorisations such as race, class, and gender, regarded as creating overlapping and interdependent systems of discrimination or disadvantage”.
+ 
+* **Sensitive attributes:** According to [Google Developers' Machine Learning Glossary](https://developers.google.com/machine-learning/glossary/fairness#sensitive-attribute), “A human attribute that may be given special consideration for legal, ethical, social, or personal reasons.” 
 
 </details>
 
