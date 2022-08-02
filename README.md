@@ -329,6 +329,15 @@ Usability study participants
 
 [Justin Jeng](https://www.linkedin.com/in/justinjeng/)
 
-[Leo Meyerovich](https://lmeyerov.github.io/)
+[Leo Meyerovich](https://lmeyerov.github.io/) ([Graphistry](https://www.graphistry.com/))
 
 Ankitkumar Patel
+
+[Danie Theron](https://www.linkedin.com/in/danielptheron/) (Course TA)
+
+[Kineviz](https://www.kineviz.com/) Team:
+
+* Sony Greene
+* Weidong Yang
+* Alex Law
+
