@@ -22,3 +22,5 @@ Included in this folder are some select papers and videos that were helpful in l
 [Arvind Narayanan’s Tutorial: 21 fairness definitions and their politics](https://www.youtube.com/watch?v=jIXIuYdnyyk)
 
 [Cynthia Dwork’s talk on The Emerging Theory of Algorithmic Fairness](https://www.youtube.com/watch?v=g-z84_nRQhw)
+
+[Aequitas Auditing tool, with a fairness tree for deciding between metrics](http://www.datasciencepublicpolicy.org/our-work/tools-guides/aequitas/)
