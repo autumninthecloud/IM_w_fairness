@@ -5,7 +5,7 @@
 
 
 
-This README provides an overview of a project completed as part of UC Berkeley's Masters of Information and Data Science program (see "Who We Are" section below). You can find a more visual representation of our project on our [Github Page](https://autumninthecloud.github.io/IM_w_fairness/). You can also find an interactive visual built with GraphXR [here](https://graphxr.kineviz.com/share/62e06f09c19ffe005709709b/IM+F_mod/62e0703ac19ffe0057097418). Note: In some browsers, users encounter problems visualizing edges; if these are not showing up for you, please try Chrome or Chromium.
+This README provides an overview of a project completed as part of UC Berkeley's Masters of Information and Data Science program (see "Who We Are" section below). You can find a more visual representation of our project on our [Github website](https://autumninthecloud.github.io/IM_w_fairness/). You can also find an interactive visual built with GraphXR [here](https://graphxr.kineviz.com/share/62e06f09c19ffe005709709b/IM+F_mod/62e0703ac19ffe0057097418). Note: In some browsers, users encounter problems visualizing the cascade edges; if these are not showing up for you, please try Chrome or Chromium.
 
 Continue reading below to understand the project itself, what our repo contains (and learn about how to use the code), ethical considerations, and how to contact us. Click the "details" buttons to show the text in each section below.
 
