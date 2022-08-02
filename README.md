@@ -195,9 +195,15 @@ Please feel free to use the information and resources in this repository (within
 We recommend the following additional resources to learn more about graphs (and graph neural networks): 
 
 [Stanford CS224W: Machine Learning with Graphs](https://web.stanford.edu/class/cs224w/)
+
+* [This video](https://www.youtube.com/watch?v=hstYPmdW8PU) on Influence Maximization is especially helpful for understanding this project!
+
 [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/)
+
 [Must-read papers on GNN](https://github.com/thunlp/GNNPapers)
+
 [Open Graph Benchmark: Benchmark datasets, data loaders and evaluators for graph machine learning](https://ogb.stanford.edu/)
+
 [NetworkX Tutorial](https://networkx.org/documentation/stable/tutorial.html)
 
 
