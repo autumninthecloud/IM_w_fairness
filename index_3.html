@@ -25,6 +25,9 @@
 			font-weight: 300;
 			background-color: #302d38;
 		}
+		/*body::-webkit-scrollbar {
+			display: none;
+		}*/
 		header {
 			background-color: transparent!important;
 		}
@@ -83,6 +86,9 @@
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#" onclick="return goTo(22);">Project Team</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" onclick="return goTo(23);">Graph Network EDA</a>
 						</li>
 					</ul>
 				</div>
@@ -196,10 +202,10 @@
 		<section class="panel" style="background-image: url(images/final/slide_16f.svg)";>
 		</section>
 
-		<section id="iframe>"
-			<!-- https://graphxr.kineviz.com/share/62e06f09c19ffe005709709b/IM+F_mod/62e0703ac19ffe0057097418 -->
-		<iframe id="iframe-id-graph" name="iframe" title="iframe" src="https://www.w3schools.com" height="600px" width = "100%"> 
-		 </iframe>
+		<section class="panel" id="iframe>">
+			<h1 style="display: block;text-align: center; font: Poppins; font-size: 14pt; height: 100%; margin-top: 10%;"> This 'hairball' structure is a subgraph created with GraphXR (Kineviz). You can explore a subset of the Sina Weibo social network to understand demographic makeup and visually understand how users can have varying fairness scores. Using your mouse, left click to move the graph network and right click to rotate the network. <br><br>
+		<iframe id="iframe-id-graph" name="iframe" title="iframe" src="https://graphxr.kineviz.com/share/62e06f09c19ffe005709709b/IM+F_mod/62e0703ac19ffe0057097418" height="75%" width = "100%" display=block;> 
+		 </iframe></h1>
 		  <script>
 		   let graphXRIframe = document.getElementById("iframe-id-graph");
 		   graphXRIframe.addEventListener('mouseover', function () {
