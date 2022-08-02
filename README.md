@@ -289,8 +289,6 @@ We are Team Influencers, a group of students in the University of California, Be
 <img src="https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/github.svg" width="32">
 </a>
 
-[![](https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/github.svg | width=100)]
-
 [Sophia Skowronski](https://www.linkedin.com/in/sophiaskowronski/)
 <a href = "https://github.com/sophiaski">
 <img src="https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/github.svg" width="32">
