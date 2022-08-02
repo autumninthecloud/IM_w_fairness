@@ -279,13 +279,27 @@ We are Team Influencers, a group of students in the University of California, Be
 
 **Team Members (in alphabetical order)** 
 
-[David Peletz](https://www.linkedin.com/in/david-peletz/)[![github](https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/github.svg | width=100)](https://github.com/dpeletz)
+[David Peletz](https://www.linkedin.com/in/david-peletz/)
+<a href = "https://github.com/dpeletz">
+<img src="https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/github.svg" width="32">
+</a>
 
 [Autumn Rains](https://www.linkedin.com/in/autumninthecloud/)
+<a href = "https://github.com/autumninthecloud">
+<img src="https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/github.svg" width="32">
+</a>
+
+[![](https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/github.svg | width=100)]
 
 [Sophia Skowronski](https://www.linkedin.com/in/sophiaskowronski/)
+<a href = "https://github.com/sophiaski">
+<img src="https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/github.svg" width="32">
+</a> 
 
 [Alissa Stover](https://www.linkedin.com/in/alissa-stover/)
+<a href = "https://github.com/alisto92">
+<img src="https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/github.svg" width="32">
+</a>
 
 **Advisors (in alphabetical order)**
 
