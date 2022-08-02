@@ -33,7 +33,7 @@ Included in this folder are some select papers and videos that were helpful in l
 ## Additional resources
 
 CS224W Lecture on this topic
-[Lecture 14:  Influence Maximization in Networks](https://www.youtube.com/watch?v=hstYPmdW8PU) | ([Notes](https://www.youtube.com/watch?v=hstYPmdW8PU))
+[Lecture 14:  Influence Maximization in Networks](https://www.youtube.com/watch?v=hstYPmdW8PU) | ([Notes](https://wandb.ai/syllogismos/machine-learning-with-graphs/reports/14-Influence-Maximization-in-Networks--VmlldzozODUxMzA))
 
 Greedy algorithm code walk-through
 [Influence Maximization in Python - Greedy vs CELF](https://hautahi.com/im_greedycelf) | ([Github](https://github.com/hautahi/IM_GreedyCELF))
