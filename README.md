@@ -3,9 +3,7 @@
 
 [Project Overview](#project-overview)  •  [Influence Maximization](#influence-maximization)  •  [Fairness](#fairness)  •  [Solutions](#solutions)  •  [Contact Us](#contacting-us!)  •  [Who We Are](#who-we-are)
 
-<p align=center>
-<img width=350 src="images/test_influencers.gif" />
-</p>
+
 
 
 
@@ -21,6 +19,10 @@ Continue reading below to understand the project itself, what our repo contains 
 In 2009, Sina Weibo – a Twitter-like platform in China – had over a million users who retweeted over 20 million messages. Most of these originated with a few “influential” users, whose original messages were retweeted many times. In the Sina Weibo network, each **node** represents a user and each **edge** represents a retweet. 
 
 Some influencers start huge chains of retweeting, where their message is retweeted over an over. This is called a **cascade**. The largest cascade in this Sina Weibo network is over 50,000 retweets long. 
+ 
+ <p align=center>
+<img width=350 src="images/test_influencers.gif" />
+</p>
 
 What if we have a message we want to share widely on Sina Weibo? How might we find the right influencers, who will be able to start these large cascades and share that message with the most people? This problem could apply to any kind of message, like an ad about a product we want to sell, a call for donations for a cause, or important information many people should know, like information about the COVID-19 vaccine.
 
