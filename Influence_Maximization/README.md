@@ -10,7 +10,7 @@ Included in this folder are some select papers and videos that were helpful in l
 
 [LI, Yuchen; FAN, Ju; WANG, Yanhao; and TAN, Kian-Lee. Influence maximization on social graphs: A survey. (2018). IEEE Transactions on Knowledge and Data Engineering. 30, (10), 1852-1872. Research Collection School Of Information Systems.](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=4983&context=sis_research)
 
-### Great overview of broader field: 
+### Great overview of broader field
 
 [Aral, S., Dhillon, P.S. Social influence maximization under empirical influence models. Nat Hum Behav 2, 375–382 (2018). https://doi.org/10.1038/s41562-018-0346-z](https://doi.org/10.1038/s41562-018-0346-z)
 
