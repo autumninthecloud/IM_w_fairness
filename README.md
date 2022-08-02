@@ -11,11 +11,11 @@
 
 This README provides an overview of a project completed as part of UC Berkeley's Masters of Information and Data Science program (see "Who We Are" section below). You can find a more visual representation of our project on our Github Page: https://autumninthecloud.github.io/IM_w_fairness/ 
 
-Continue reading below to understand the project itself, what our repo contains (and learn about how to use the code), ethical considerations, and how to contact us.
+Continue reading below to understand the project itself, what our repo contains (and learn about how to use the code), ethical considerations, and how to contact us. Click the "details" buttons to show the text in each section below.
 
 ## Project Overview
 
-<details>
+<details (Click to expand!)>
 
 In 2009, Sina Weibo – a Twitter-like platform in China – had over a million users who retweeted over 20 million messages. Most of these originated with a few “influential” users, whose original messages were retweeted many times. In the Sina Weibo network, each **node** represents a user and each **edge** represents a retweet. 
 
@@ -59,9 +59,9 @@ If the *cascade distribution* for a given attribute looks similar to that of the
 
 ### Experiments
 
-</details>
+<details>
 
-[We divided our replication efforts into three phases: 
+We divided our replication efforts into three phases: 
 
 1. Initial replication
 2. Code refactoring and data pipeline implementation
@@ -69,13 +69,13 @@ If the *cascade distribution* for a given attribute looks similar to that of the
 
 In the first phase, we tried to run the process end-to-end while changing the code as minimally as possible. We downloaded the original dataset from Baidu and ran the entire process with the dataset. In certain instances, we needed to make edits to address bugs that we faced. In our second phase, we began to refactor and document the code to improve efficiency and readability where possible. We also implemented a data pipeline where we hosted the input data on Google Drive and then created scripts to ingest the data, uncompress the files, and run the process end-to-end. 
 
-We hope that the creation of this pipeline will make it easier for others to experiment with this project. In the final phase, we repeated the replication process by running all of the Python scripts and then validated the results.]
+We hope that the creation of this pipeline will make it easier for others to experiment with this project. In the final phase, we repeated the replication process by running all of the Python scripts and then validated the results.
 
 </details>
 
 ### Evaluation
 
-</details>
+<details>
 
 The original research evaluated the performance of the FPS and FAC models by comparing it with two other algorithms in terms of their objective function scores, the number of influenced nodes, and execution time. 
 
@@ -99,7 +99,6 @@ There are scalability gains in this deep learning approach over previous work in
 
 Because we were unable to gain access to the complete set of research code during the course of our project, we can only speak at the theoretical level about how these approaches make improvements, and we can also verify that our team successfully ran both models locally.
 
-
 There are also gains in how the training data is constructed versus previous IM models. Rather than building the propagation network to model influence graphically (searching for nodes that are connected in a cascade via a directed edge), the research team modeled influence as the ability for an influencer to exert influence over other target users, which results in a reduction in time complexity in building the data. Creating the influencer target user pairs has a complexity of O(cn), where c is the number of cascades and n is the cascade size, and it is linear with the size of each cascade. This is an improvement over the aforementioned propagation network models that have a complexity of O(cn(n-1)/2).
 
 Overall, we agree with the initial assumptions that a deep learning based approach for modeling influence is more scalable than previous efforts.
@@ -108,7 +107,7 @@ Overall, we agree with the initial assumptions that a deep learning based approa
 
 ### Conclusion 
 
-</details>
+<details>
 Targeting key influential people to spread information efficiently to a broader audience is a growing need for marketers advertising products or services as well as for policymakers looking to inform or educate the public. Machine learning techniques like Influence Maximization (IM) are a viable solution to these needs. Sensitive attributes like race or gender of users within a network are key variables to include when training machine learning models to reduce bias and unfair information spread. Our research used existing IM algorithms on a social network dataset from Sina Weibo, a social network in China, that was composed of tweets and retweets to study fair information spread. Profile information of users was utilized to classify users within one of two gender groups: male and female. From these aggregations, we trained and tested two IM models to study how information was spread and if fairness could be maintained.
 
 From our research we have concluded that fairness can be introduced into influence maximization algorithms successfully. The two models studied in our research perform well compared to current cutting-edge IM models. We also incorporated ethical frameworks with our research in line with best practice to maintain privacy and fair use of user data. Future areas of work should focus on alternative definitions of fairness as well as continuing research of the ethical implications of utilizing user data for testing to protect privacy and minimize harm. We plan to incorporate additional sensitive attributes of user profiles such as location or topics of retweets to understand how the fair spread of information in social networks can be impacted.
