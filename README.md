@@ -1,7 +1,7 @@
 
 # Influence Maximization and Fairness in Social Networks at Scale
 
-[Project Overview](#project-overview)  •  [Repository](#repository)  •  [Contact Us](#contact-us)  •  [Who We Are](#who-we-are)
+[Project Overview](#project-overview)  •  [Learn more](#learn-more)  •  [Contact Us](#contact-us)  •  [Who We Are](#who-we-are)
 
 
 
@@ -35,8 +35,10 @@ Some influencers share information with many different people, who might represe
 If the *cascade distribution* for a given attribute looks similar to that of the *broader network*, we might think of this as **"fair"** information spread. This concept of fairness is similar to what some might recognize as **"demographic parity"**.
 
 **Our project updates influence maximization to find the most fair and impactful influencers.**
-
-#### Glossary
+</details>
+ 
+<details>
+ <summary>Glossary</summary>
 
 **Retweet:**  When someone republishes or forwards a post from someone else to their own follower in a social media network (like Twitter or Sina Weibo).
 
@@ -95,7 +97,10 @@ We are using deep learning methods to predict the probability of a user appearin
 
 We’ll use a [greedy approach](https://en.wikipedia.org/wiki/Greedy_algorithm) to return the top scoring influencers based on their cumulative influence probabilities across the network. Once the top influencer is identified, we remove their target users from the network, and repeat this process until we have the number we set aside in our budget.
 
-#### Glossary
+</details>
+
+<details>
+ <summary>Glossary</summary>
 
 **Diffusion:** The spread of information, idea, or product in social networks
 
@@ -133,7 +138,7 @@ For FAC, instead of modifying the training data, fairness is incorporated by add
  
 #### Greedy Algorithm
 
-In the final stage, the learned influencer embeddings and diffusion probabilities are used in an optimization algorithm to select the top influencers with the highest influence magnitude. 
+In the final stage, the learned influencer embeddings and diffusion probabilities are used in an  optimization algorithm to select the top influencers with the highest influence magnitude. 
 
 The researchers used a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) for selecting the best influencer at each step. The influenced target users (“infected”) are then removed, and this process is repeated until the budgeted number of influencers is reached.
 
@@ -204,7 +209,7 @@ From our research we have concluded that fairness can be introduced into influen
 
 </details>
 
-## How to learn more 
+## Learn more
 
 Please feel free to use the information and resources in this repository (within the README and folders in the repo). We plan to share the code once the original paper has been published.
 
@@ -262,12 +267,12 @@ Usability study participants
 
 [Prof. Morgan Ames](https://www.ischool.berkeley.edu/about/profiles/morgan-ames)
 
-Alastair Dant
+[Alastair Dant](https://www.linkedin.com/in/alastairdant/)
 
-Joe Hoeller
+[Joe Hoeller](https://medium.com/@joehoeller)
 
-Justin Jeng
+[Justin Jeng](https://www.linkedin.com/in/justinjeng/)
 
-Leo Meyerovich
+[Leo Meyerovich](https://lmeyerov.github.io/)
 
 Ankitkumar Patel
