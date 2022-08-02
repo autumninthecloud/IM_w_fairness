@@ -15,7 +15,8 @@ Continue reading below to understand the project itself, what our repo contains 
 
 ## Project Overview
 
-<details (Click to expand!)>
+<details>
+ <summary>Click to expand details!</summary>
 
 In 2009, Sina Weibo – a Twitter-like platform in China – had over a million users who retweeted over 20 million messages. Most of these originated with a few “influential” users, whose original messages were retweeted many times. In the Sina Weibo network, each **node** represents a user and each **edge** represents a retweet. 
 
