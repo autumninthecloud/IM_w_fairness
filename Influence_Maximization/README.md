@@ -45,6 +45,10 @@ Greedy algorithm code walk-through
 
 [Influence Maximization presentation from Microsoft](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/kdd12-tutorial-inf-part-iii.pdf) that details different algorithms, computational complexity, and community clustering algorithms.
 
+Helpful YouTube series for intution and proofs of classic IM approach: A Greedy Heuristic for Influence Maximization by Tim Roughgarden
+- [Part 1](https://www.youtube.com/watch?v=GqKbx3LCQqE)
+- [Part 2](https://www.youtube.com/watch?v=_1-Vv5Vid9Q)
+
 ## Graph Theory 101
 
 [Introduction to Graph Theory | Baeldung on Computer Science](https://www.baeldung.com/cs/graph-theory-intro)
