@@ -114,7 +114,14 @@ We’ll use a [greedy approach](https://en.wikipedia.org/wiki/Greedy_algorithm) 
 
 <details>
 
-[INSERT MORE IN-DEPTH EXPLANATION OF FAIRNESS]
+Any definition of fairness – including in the context of machine learning – is deeply contextual and will depend on the issue at hand. There are many ways to define fairness, both conceptually and mathematically. These definitions can be mutually incompatible. Please see the [Fairness](https://github.com/autumninthecloud/IM_w_fairness/tree/main/Fairness) folder in this repo to learn more about fairness in machine learning generally. 
+
+In this project, we aimed to replicate the original author’s research using their definition of fairness, which is similar to the concept of [demographic parity](https://developers.google.com/machine-learning/glossary#demographic-parity
+). 
+
+Like other definitions of fairness, this definition hinges on treatment of individuals who identify in various ways with respect to sets of sensitive attributes. Sensitive attributes might include gender, race, ethnicity, country of origin, and many other ways individuals can identify themselves. 
+ 
+The original authors considered several possible definitions of fairness, outlined in the table below. Within the context of maximizing the spread of information through a network, the **Equity** definition seemed most appropriate. 
  
 | Definition | Description | Outcome in IM Context |
 | ----------- | ----------- | ----------- |
@@ -122,6 +129,13 @@ We’ll use a [greedy approach](https://en.wikipedia.org/wiki/Greedy_algorithm) 
 | Maximin | Keep groups as similar as possible with respect to information spread within the group, relative to their size. | Since the information spread must be similar across groups, the overall spread might be limited by the least connected group. If any group is much less well-connected, this might introduce too much of a drop in overall information spread. |
 | Diversity | Each group receives information at least equal to how information spreads within the graph initiated by that group. | Since groups that spread more information end up receiving more (and vice versa), information spread might be very uneven across groups (depending on how different they are with respect to spreading information). |
 | Equity | Any node's probability of being influenced is as similar as possible, regardless of the node's group membership. | Information spread within a group should occur in proportion to its overall share of nodes in the graph. |
+ 
+ </details>
+ 
+<details>
+ <summary>Glossary</summary>
+
+* **Sensitive attributes:** According to Google Developers' Machine Learning Glossary, “A human attribute that may be given special consideration for legal, ethical, social, or personal reasons.” 
 
 </details>
 
