@@ -115,7 +115,9 @@ We’ll use a [greedy approach](https://en.wikipedia.org/wiki/Greedy_algorithm) 
 
 <details>
 
-Any definition of fairness – including in the context of machine learning – is deeply contextual and will depend on the issue at hand. There are many ways to define fairness, both conceptually and mathematically. These definitions can be mutually incompatible. Please see the [Fairness](https://github.com/autumninthecloud/IM_w_fairness/tree/main/Fairness) folder in this repo to learn more about fairness in machine learning generally. 
+Any definition of fairness – including in the context of machine learning – is deeply contextual and will depend on the issue at hand. There are many ways to define fairness, both conceptually and mathematically. One definition - from the [Oxford dictionary](https://www.oxfordlearnersdictionaries.com/definition/english/fair_1) - defines fairness as "treating everyone equally and according to the rules or law".
+ 
+These definitions can be mutually incompatible. Please see the [Fairness](https://github.com/autumninthecloud/IM_w_fairness/tree/main/Fairness) folder in this repo to learn more about fairness in machine learning generally. 
 
  <p align=center>
 <img width=600 src="images/fairness_cartoon.png" />
