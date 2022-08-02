@@ -62,7 +62,7 @@ If the *cascade distribution* for a given attribute looks similar to that of the
 
 How can we maximize the reach of messaging campaigns on social media networks while operating on a limited budget? This is where influence maximization (IM) comes in. It aims to maximize information spread in a network under constraints, and in particular, by selecting the most influential users from which the transmission of a specific message should begin.
 
-Formal definition: Given a network with n nodes and given a “spreading” or propagation process on that network, choose a “seed set” S of size k < n to maximize the number of nodes in the network that are ultimately influenced.
+**Formal definition**: Given a network with n nodes and given a “spreading” or propagation process on that network, choose a “seed set” S of size k < n to maximize the number of nodes in the network that are ultimately influenced.
 
 <p align=center>
 <img width=500 src="images/im_cartoon.png" />
