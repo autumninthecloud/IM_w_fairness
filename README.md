@@ -5,6 +5,10 @@
 
 This README provides an overview of a project completed as part of UC Berkeley's Masters of Information and Data Science program (see "Who We Are" section below). You can find a more visual representation of our project on our Github Page: https://autumninthecloud.github.io/IM_w_fairness/ 
 
+<p align=center>
+<img width=350 src="images/socialnetwork_starwarsgif.gif" />
+</p>
+
 Continue reading below to understand the project itself, what our repo contains (and learn about how to use the code), ethical considerations, and how to contact us. Click the "details" buttons to show the text in each section below.
 
 ## Project Overview
@@ -37,6 +41,10 @@ If the *cascade distribution* for a given attribute looks similar to that of the
 <details>
 
 [INSERT MORE IN-DEPTH EXPLANATION OF IM]
+
+<p align=center>
+<img width=350 src="images/im_cartoon.png" />
+</p>
 
 </details>
 
