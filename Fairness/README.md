@@ -19,7 +19,7 @@ Included in this folder are some select papers and videos that were helpful in l
 
 ## Regulations on Fairness in Advertising - Anti-Discrimination & Privacy Protections
 1. [US - FTC's FTC Act & Policy on Fairness in advertising](https://www.ftc.gov/legal-library/browse/ftc-policy-statement-unfairness)
-2. [US - HUD's Act pertaining to nondiscriminatroy advertising](https://www.hud.gov/program_offices/fair_housing_equal_opp/fair_housing_act_overview)
+2. [US - HUD's Fair Housing Act pertaining to nondiscriminatroy advertising](https://www.hud.gov/program_offices/fair_housing_equal_opp/fair_housing_act_overview)
 3. [EU - Digital Market Act](https://oeil.secure.europarl.europa.eu/oeil/popups/ficheprocedure.do?reference=2020/0374(COD)&l=en)
 4. [EU - Digital Services Act, 2022](https://ec.europa.eu/commission/presscorner/detail/en/ip_22_2545)
 
