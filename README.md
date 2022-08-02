@@ -61,7 +61,7 @@ If the *cascade distribution* for a given attribute looks similar to that of the
 
 </details>
 
-We divided our replication efforts into three phases: 
+[We divided our replication efforts into three phases: 
 
 1. Initial replication
 2. Code refactoring and data pipeline implementation
@@ -69,7 +69,7 @@ We divided our replication efforts into three phases:
 
 In the first phase, we tried to run the process end-to-end while changing the code as minimally as possible. We downloaded the original dataset from Baidu and ran the entire process with the dataset. In certain instances, we needed to make edits to address bugs that we faced. In our second phase, we began to refactor and document the code to improve efficiency and readability where possible. We also implemented a data pipeline where we hosted the input data on Google Drive and then created scripts to ingest the data, uncompress the files, and run the process end-to-end. 
 
-We hope that the creation of this pipeline will make it easier for others to experiment with this project. In the final phase, we repeated the replication process by running all of the Python scripts and then validated the results.
+We hope that the creation of this pipeline will make it easier for others to experiment with this project. In the final phase, we repeated the replication process by running all of the Python scripts and then validated the results.]
 
 </details>
 
