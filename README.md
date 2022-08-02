@@ -200,6 +200,8 @@ We recommend the following additional resources to learn more about graphs (and 
 
 [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/)
 
+* Check out these [explainer slides](https://docs.google.com/presentation/d/1u-3qp1-SgGTKL755a0ttuHSz1iVdEqCY1xG_Ub6201o/edit?usp=sharing) for the paper (from our team member Sophia S. and our classmate Spencer Song)
+
 [Must-read papers on GNN](https://github.com/thunlp/GNNPapers)
 
 [Open Graph Benchmark: Benchmark datasets, data loaders and evaluators for graph machine learning](https://ogb.stanford.edu/)
