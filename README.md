@@ -279,24 +279,36 @@ We are Team Influencers, a group of students in the University of California, Be
 
 **Team Members (in alphabetical order)** 
 
-[David Peletz](https://www.linkedin.com/in/david-peletz/)
+David Peletz
 <a href = "https://github.com/dpeletz">
-<img src="https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/github.svg" width="32">
+<img src="https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/github.svg" width="22">
+</a>
+<a href = "https://www.linkedin.com/in/david-peletz/">
+<img src="https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/iconmonstr-linkedin-3.svg" width="22">
 </a>
 
-[Autumn Rains](https://www.linkedin.com/in/autumninthecloud/)
+Autumn Rains
 <a href = "https://github.com/autumninthecloud">
-<img src="https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/github.svg" width="32">
+<img src="https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/github.svg" width="22">
+</a>
+<a href = "hhttps://www.linkedin.com/in/autumninthecloud/">
+<img src="https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/iconmonstr-linkedin-3.svg" width="22">
 </a>
 
-[Sophia Skowronski](https://www.linkedin.com/in/sophiaskowronski/)
+Sophia Skowronski
 <a href = "https://github.com/sophiaski">
-<img src="https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/github.svg" width="32">
+<img src="https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/github.svg" width="22">
 </a> 
+<a href = "https://www.linkedin.com/in/sophiaskowronski/">
+<img src="https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/iconmonstr-linkedin-3.svg" width="22">
+</a>
 
-[Alissa Stover](https://www.linkedin.com/in/alissa-stover/)
+Alissa Stover
 <a href = "https://github.com/alisto92">
-<img src="https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/github.svg" width="32">
+<img src="https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/github.svg" width="22">
+</a>
+<a href = "https://www.linkedin.com/in/alissa-stover/">
+<img src="https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/iconmonstr-linkedin-3.svg" width="22">
 </a>
 
 **Advisors (in alphabetical order)**
