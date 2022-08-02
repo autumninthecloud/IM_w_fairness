@@ -1,7 +1,7 @@
 
 #  Influence Maximization resources
 
-Included in this folder are some select papers that were helpful in learning about this topic. 
+Included in this folder are some select papers and videos that were helpful in learning about this topic. 
 
 ## Surveys
 
