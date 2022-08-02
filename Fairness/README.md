@@ -19,7 +19,7 @@ Included in this folder are some select papers and videos that were helpful in l
 
 ## Regulations on Fairness
 [US - FTC's FTC Act & Policy on Fairness in advertising](https://www.ftc.gov/legal-library/browse/ftc-policy-statement-unfairness)
-[US - HUD's Act pertaining to nondiscriminatroy advertising](https://www.hud.gov/program_offices/fair_housing_equal_opp/advertising_and_marketing#:~:text=In%20nearly%20all%20housing%2C%20including,sex%20(including%20gender%20identity%20and)
+[US - HUD's Act pertaining to nondiscriminatroy advertising](https://www.hud.gov/program_offices/fair_housing_equal_opp/fair_housing_act_overview)
 
 ## Additional links
 
