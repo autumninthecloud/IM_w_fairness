@@ -211,7 +211,7 @@ From our research we have concluded that fairness can be introduced into influen
 
 ## Learn more
 
-Please feel free to use the information and resources in this repository (within the README and folders in the repo). We plan to share the code once the original paper has been published.
+Please feel free to use the information and resources in this repository (within the README and the [Ethics](https://github.com/autumninthecloud/IM_w_fairness/tree/main/Ethics), [Fairness](https://github.com/autumninthecloud/IM_w_fairness/tree/main/Fairness), and [Influence_Maximization](https://github.com/autumninthecloud/IM_w_fairness/tree/main/Influence_Maximization) folders in the repo). We plan to share the code once the original paper has been published.
 
 We recommend the following additional resources to learn more about graphs (and graph neural networks): 
 
