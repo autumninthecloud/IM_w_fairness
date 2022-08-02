@@ -1,6 +1,5 @@
 
-# Influence Maximization and Fairness 
-# in Social Networks at Scale
+# Influence Maximization and Fairness in Social Networks at Scale
 
 [Project Overview](#project-overview)  •  [Learn more](#learn-more)  •  [Contact Us](#contact-us)  •  [Who We Are](#who-we-are)
 
