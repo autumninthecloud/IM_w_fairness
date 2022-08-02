@@ -1,6 +1,6 @@
 
 
-#  Influence Maximization resources
+#  Influence Maximization literature
 
 Included in this folder are some select papers and videos that were helpful in learning about this topic. 
 
@@ -30,7 +30,7 @@ Included in this folder are some select papers and videos that were helpful in l
 
 [Alrajebah, Nora & Tiropanis, Thanassis & Carr, Leslie. (2017). Cascades on Online Social Networks: A Chronological Account. 393-411. 10.1007/978-3-319-70284-1_31.](https://www.researchgate.net/publication/320759941_Cascades_on_Online_Social_Networks_A_Chronological_Account)
 
-## Additional links
+## Additional resources
 
 CS224W Lecture on this topic
 [Lecture 14:  Influence Maximization in Networks](https://www.youtube.com/watch?v=hstYPmdW8PU) | [(Notes)](https://www.youtube.com/watch?v=hstYPmdW8PU)
