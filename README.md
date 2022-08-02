@@ -75,15 +75,11 @@ If the *cascade distribution* for a given attribute looks similar to that of the
 
 ## Repository 
 
-[OVERVIEW OF WHAT REPO CONTAINS]
-
-### How to use the code 
-
-[GUIDE TO USING CODE]
+This repository contains information and resources about this project (within the README and folders in the repo). We plan to share the code once the original paper has been published.
 
 ## Contacting Us! 
 
-If you have any input on code, please submit a pull request. 
+If you have any input on the content of this repo, please submit a pull request. 
 
 For anything else, please send us an email at team-influencers@googlegroups.com! We are happy to communicate about anything about this project, including:
 
@@ -108,6 +104,14 @@ We are Team Influencers, a group of students in the University of California, Be
 
 **Advisors (in alphabetical order)**
 
-[Alberto Todeschini](https://www.ischool.berkeley.edu/people/alberto-todeschini)
+[Prof. Alberto Todeschini](https://www.ischool.berkeley.edu/people/alberto-todeschini)
 
-[Puya Vahabi](https://www.ischool.berkeley.edu/people/puya-h-vahabi)
+[Prof. Puya Vahabi](https://www.ischool.berkeley.edu/people/puya-h-vahabi)
+
+**Additional thanks to everyone who gave us feedback along the way (in alphabetical order)**
+
+Usability study participants
+
+[Prof. Morgan Ames](https://www.ischool.berkeley.edu/about/profiles/morgan-ames)
+
+Ankitkumar Patel
