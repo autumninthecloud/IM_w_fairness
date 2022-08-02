@@ -47,7 +47,7 @@ How can we maximize the reach of messaging campaigns on social media networks wh
 Formal definition: Given a network with n nodes and given a “spreading” or propagation process on that network, choose a “seed set” S of size k < n to maximize the number of nodes in the network that are ultimately influenced.
 
 <p align=center>
-<img width=350 src="images/im_cartoon.png" />
+<img width=500 src="images/im_cartoon.png" />
 </p>
 
 At a high level, there are four components of an IM algorithm:
@@ -77,7 +77,7 @@ We are using deep learning methods to predict the probability of a user appearin
 
 #### Optimization framework
 
-We’ll use a greedy algorithm to return the top scoring influencers based on their cumulative influence probabilities across the network. Once the top influencer is identified, we remove their target users from the network, and repeat this process until we have the number we set aside in our budget.
+We’ll use a [greedy approach](https://en.wikipedia.org/wiki/Greedy_algorithm) to return the top scoring influencers based on their cumulative influence probabilities across the network. Once the top influencer is identified, we remove their target users from the network, and repeat this process until we have the number we set aside in our budget.
 
 #### Glossary
 
@@ -97,11 +97,35 @@ We’ll use a greedy algorithm to return the top scoring influencers based on th
 
 </details>
 
-### Solutions 
+### Approaches 
 
 <details>
+ 
+The research team applied deep learning to uncover representations about pairs of users based on their shared cascade context – influence spread magnitude and fairness scores – to predict diffusion probabilities. They incorporated fairness in two different ways and compared their performance with other algorithms. The resulting probabilities and influencer embeddings from the layers of both of these neural network architectures are used by a greedy algorithm in the final step to identify the set of fair influencers.
 
-[INSERT EXPLANATION OF FPS/FAC]
+The codebase builds on top of [previous work](https://github.com/geopanag/IMINFECTOR) that utilizes representation learning for modeling influence.
+ 
+ #### Fairness-Based Participant Sampling (FPS)
+
+In both approaches, time-based sampling of the original influencer and target user pairs is applied to the input training data for the neural network. The main idea is that faster response times between the original post and the target user will represent a higher susceptibility of being influenced and will therefore lead to better diffusion probability predictions. To accomplish this, the input pairs, for a given cascade, are oversampled inversely proportional to the response time between retweets.
+
+In FPS, another sampling scheme is then applied after this, whose goal is to downsample biased (or unfair) influencers in the training data. For any given influencer, if their historical cascades have lower fairness scores overall, their data will be penalized with less visibility. In practice, the researchers experimented with using logarithmic, exponential, and linear scaling in the penalty function.
+ 
+#### Fairness As Context (FAC)
+
+For FAC, instead of modifying the training data, fairness is incorporated by adding another layer in the neural network to predict the fairness score from the influencer embeddings in the previous layer. It will optimize the neural network’s weights and biases based on the mean squared error between the predicted influencer fairness scores and actual fairness scores, leading to influencer embeddings that incorporate fairness through learned representation rather than sampling.
+ 
+#### Greedy Algorithm
+
+In the final stage, the learned influencer embeddings and diffusion probabilities are used in an  optimization algorithm to select the top influencers with the highest influence magnitude. 
+
+The researchers used a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) for selecting the best influencer at each step. The influenced target users (“infected”) are then removed, and this process is repeated until the budgeted number of influencers is reached.
+
+At a high level, this is how the algorithm is applied in each step:
+For each influencer, an expected number of infected users is calculated based on the magnitude of its embedding from the neural network. The expected number of infected users is simply the proportion of this embedding magnitude over all influencers’ embedding magnitudes which is then multiplied by the number of users in the network. 
+The diffusion probabilities, which are derived by multiplying the influencer and target embedding matrices (specifics can be found in the original research paper), are used to identify users with the highest probability of being infected by each influencer. 
+The influencer with highest cumulative diffusion probabilities is selected, and its top infected set of users are removed before beginning this process again.
+
 
 </details>
 
