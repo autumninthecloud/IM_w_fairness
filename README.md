@@ -291,7 +291,7 @@ Autumn Rains
 <a href = "https://github.com/autumninthecloud">
 <img src="https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/github.svg" width="22">
 </a>
-<a href = "hhttps://www.linkedin.com/in/autumninthecloud/">
+<a href = "https://www.linkedin.com/in/autumninthecloud/">
 <img src="https://github.com/autumninthecloud/IM_w_fairness/blob/main/images/iconmonstr-linkedin-3.svg" width="22">
 </a>
 
