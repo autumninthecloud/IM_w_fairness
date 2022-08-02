@@ -3,26 +3,28 @@
 
 [Project Overview](#project-overview)  •  [Repository](#repository)  •  [Contact Us](#contact-us)  •  [Who We Are](#who-we-are)
 
-This README provides an overview of a project completed as part of UC Berkeley's Masters of Information and Data Science program (see "Who We Are" section below). You can find a more visual representation of our project on our Github Page: https://autumninthecloud.github.io/IM_w_fairness/ 
 
-<p align=center>
-<img width=350 src="images/socialnetwork_starwarsgif.gif" />
-</p>
+
+This README provides an overview of a project completed as part of UC Berkeley's Masters of Information and Data Science program (see "Who We Are" section below). You can find a more visual representation of our project on our Github Page: https://autumninthecloud.github.io/IM_w_fairness/ 
 
 Continue reading below to understand the project itself, what our repo contains (and learn about how to use the code), ethical considerations, and how to contact us. Click the "details" buttons to show the text in each section below.
 
 ## Project Overview
+
+<p align=center>
+<img width=1000 src="images/socialnetwork_starwarsgif.gif" />
+</p>
 
 <details>
  <summary>Click to expand details!</summary>
 
 In 2009, Sina Weibo – a Twitter-like platform in China – had over a million users who retweeted over 20 million messages. Most of these originated with a few “influential” users, whose original messages were retweeted many times. In the Sina Weibo network, each **node** represents a user and each **edge** represents a retweet. 
 
-Some influencers start huge chains of retweeting, where their message is retweeted over an over. This is called a **cascade**. The largest cascade in this Sina Weibo network is over 50,000 retweets long. 
- 
-<p align=center>
+ <p align=center>
 <img width=350 src="images/test_influencers.gif" />
 </p>
+ 
+Some influencers start huge chains of retweeting, where their message is retweeted over an over. This is called a **cascade**. The largest cascade in this Sina Weibo network is over 50,000 retweets long. 
 
 What if we have a message we want to share widely on Sina Weibo? How might we find the right influencers, who will be able to start these large cascades and share that message with the most people? This problem could apply to any kind of message, like an ad about a product we want to sell, a call for donations for a cause, or important information many people should know, like information about the COVID-19 vaccine.
 
@@ -40,11 +42,50 @@ If the *cascade distribution* for a given attribute looks similar to that of the
 
 <details>
 
-[INSERT MORE IN-DEPTH EXPLANATION OF IM]
+How can we maximize the reach of messaging campaigns on social media networks while operating on a limited budget? This is where influence maximization (IM) comes in. It aims to maximize information spread in a network under constraints, and in particular, by selecting the most influential users from which the transmission of a specific message should begin.
+
+Formal definition: Given a network with n nodes and given a “spreading” or propagation process on that network, choose a “seed set” S of size k < n to maximize the number of nodes in the network that are ultimately influenced.
 
 <p align=center>
 <img width=350 src="images/im_cartoon.png" />
 </p>
+
+At a high level, there are four components of an IM algorithm:
+
+1. Network graph
+2. Budget
+3. Influence model
+4. Optimization framework
+
+#### Network graph
+
+Our social network is a set of retweet cascades. The original posts represent the start of a cascade, and any tweet with the same content, that is not an original post and takes place afterwards, is considered a retweet. 
+
+_Weibo dataset summary statistics_
+
+* User nodes: 1,170,689
+* Retweet edges: 225,877,808
+* Cascades (retweets grouped by post content): 115,686
+* Average cascade size: 148 hops in the network
+
+#### Budget
+
+The number of influencer users we are searching for. This is a subset of users whose influence spreads retweet content to the maximum number of users in the network. 
+#### Influence model
+
+We are using deep learning methods to predict the probability of a user appearing in a diffusion cascade started by a seed (influencer), independently of the two users’ distance in the network.
+
+#### Optimization framework
+
+We’ll use a greedy algorithm to return the top scoring influencers based on their cumulative influence probabilities across the network. Once the top influencer is identified, we remove their target users from the network, and repeat this process until we have the number we set aside in our budget.
+
+#### Glossary
+
+**Diffusion:** The spread of information, idea, or product in social networks
+
+**Influence spread:** Number of users infected by a set of seed users
+
+**Seed users / Influencers:** The nodes that are the initial disseminators of an information
 
 </details>
 
