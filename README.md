@@ -40,19 +40,19 @@ If the *cascade distribution* for a given attribute looks similar to that of the
 <details>
  <summary>Glossary</summary>
 
-**Retweet:**  When someone republishes or forwards a post from someone else to their own follower in a social media network (like Twitter or Sina Weibo).
+* **Retweet:**  When someone republishes or forwards a post from someone else to their own follower in a social media network (like Twitter or Sina Weibo).
 
-**Node:** Entities we are evaluating in a graph (in this case, Sina Weibo users).
+* **Node:** Entities we are evaluating in a graph (in this case, Sina Weibo users).
 
-**Edge:** Connections between nodes (in this case, retweets).
+* **Edge:** Connections between nodes (in this case, retweets).
 
-**Influence:** Capacity of an individual in a social network to spread information throughout that network.
+* **Influence:** Capacity of an individual in a social network to spread information throughout that network.
 
-**Cascade:** Large chain of retweeting. Users with greater influence are more likely to initiate a cascade.
+* **Cascade:** Large chain of retweeting. Users with greater influence are more likely to initiate a cascade.
 
-**Influence Maximization (IM) algorithm:** Algorithms that find the set of *k* influencers that maximize information spread in a network.
+* **Influence Maximization (IM) algorithm:** Algorithms that find the set of *k* influencers that maximize information spread in a network.
 
-**Demographic parity:** According to [Google Developers' Machine Learning Glossary](https://developers.google.com/machine-learning/glossary/fairness), "A fairness metric that is satisfied if the results of a model's classification are not dependent on a given sensitive attribute."
+* **Demographic parity:** According to [Google Developers' Machine Learning Glossary](https://developers.google.com/machine-learning/glossary/fairness), "A fairness metric that is satisfied if the results of a model's classification are not dependent on a given sensitive attribute."
 
 </details>
 
@@ -102,11 +102,11 @@ We’ll use a [greedy approach](https://en.wikipedia.org/wiki/Greedy_algorithm) 
 <details>
  <summary>Glossary</summary>
 
-**Diffusion:** The spread of information, idea, or product in social networks
+* **Diffusion:** The spread of information, idea, or product in social networks
 
-**Influence spread:** Number of users infected by a set of seed users
+* **Influence spread:** Number of users infected by a set of seed users
 
-**Seed users / Influencers:** The nodes that are the initial disseminators of an information
+* **Seed users / Influencers:** The nodes that are the initial disseminators of an information
 
 </details>
 
