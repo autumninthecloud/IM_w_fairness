@@ -4,6 +4,11 @@
 
 Included in this folder are some select papers and videos that were helpful in learning about this topic. 
 
+
+### Definitive paper
+
+[David Kempe, Jon Kleinberg, Éva Tardos: Maximizing the Spread of Influence in a Social Network. In Theory of Computing 11(4), 2015.](https://theoryofcomputing.org/articles/v011a004/)
+
 ### Surveys
 
 [Banerjee, S., Jenamani, M. & Pratihar, D.K. A survey on influence maximization in a social network. Knowl Inf Syst 62, 3417–3455 (2020). https://doi.org/10.1007/s10115-020-01461-4](https://arxiv.org/pdf/1808.05502.pdf)
