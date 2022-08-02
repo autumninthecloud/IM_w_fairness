@@ -36,6 +36,22 @@ If the *cascade distribution* for a given attribute looks similar to that of the
 
 **Our project updates influence maximization to find the most fair and impactful influencers.**
 
+#### Glossary
+
+**Retweet:**  When someone republishes or forwards a post from someone else to their own follower in a social media network (like Twitter or Sina Weibo).
+
+**Node:** Entities we are evaluating in a graph (in this case, Sina Weibo users).
+
+**Edge:** Connections between nodes (in this case, retweets).
+
+**Influence:** Capacity of an individual in a social network to spread information throughout that network.
+
+**Cascade:** Large chain of retweeting. Users with greater influence are more likely to initiate a cascade.
+
+**Influence Maximization (IM) algorithm:** Algorithms that find the set of *k* influencers that maximize information spread in a network.
+
+**Demographic parity:** According to [Google Developers' Machine Learning Glossary](https://developers.google.com/machine-learning/glossary/fairness), "A fairness metric that is satisfied if the results of a model's classification are not dependent on a given sensitive attribute."
+
 </details>
 
 ### Influence Maximization
